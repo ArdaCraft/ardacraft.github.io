@@ -1,0 +1,12 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : null,
+      "name" : "ArdaCraft Modpack",
+      "version" : "1.5",
+      "location" : "ardacraft-modpack.json",
+      "priority" : 0
+    }
+  ]
+}
