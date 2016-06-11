@@ -1,0 +1,203 @@
+::selection {
+    background: #c2cace; /* Safari */
+}
+::-moz-selection {
+    background: #c2cace; /* Firefox */
+}
+.lg-outer .lg-item:after,
+.animsition-loading,
+.tp-loader.spinner {
+    border-left: 6px solid #344e5d;
+}
+a {
+    color: #344e5d;
+}
+a.line:hover {
+    border-bottom: 1px solid #344e5d;
+}
+a:hover,
+a:focus {
+    color: #344e5d;
+}
+.nocolor:hover {
+    color: #344e5d
+}
+.post-title a:hover {
+    color: #344e5d
+}
+.more {
+    color: #344e5d;
+}
+.meta a:hover,
+.more:hover {
+    color: #344e5d
+}
+.meta.price,
+.meta.price a {
+    color: #344e5d;
+}
+footer.inverse-wrapper a:hover {
+    color: #344e5d !important
+}
+ul.circled li:before {
+    color: #344e5d;
+}
+.contact-info li a:hover {
+    color: #344e5d
+}
+.contact-info i {
+    color: #344e5d;
+}
+.btn {
+    background: #344e5d;
+}
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active {
+    background: #2c424f;
+}
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active,
+.btn-white.active {
+	background: #FFF !important;
+    color: #344e5d !important
+}
+.navbar.centered.color .navbar-collapse {
+    background: #344e5d
+}
+.navbar .info a:hover,
+.navbar .top-bar a:hover {
+    color: #344e5d
+}
+.isotope-filter ul li a:hover,
+.isotope-filter ul li a.is-checked {
+    color: #344e5d
+}
+.blog-posts .post .date-wrapper .date {
+    background: #344e5d;
+}
+.blog-posts .post .format-wrapper {
+    background-color: #344e5d;
+}
+.timeline .date-title .date {
+    background: #344e5d;
+}
+footer  a:hover {
+    color: #344e5d
+}
+.sidebar .meta a:hover,
+footer .meta a:hover {
+    color: #344e5d !important
+}
+.sidebox a:hover {
+    color: #344e5d
+}
+.widget .post-list li a:hover {
+    color: #344e5d
+}
+#comments .info h4 a:hover {
+    color: #344e5d
+}
+.tparrows:hover:before {
+    color: #344e5d
+}
+.owl-nav .owl-prev:hover:before,
+.owl-nav .owl-next:hover:before {
+    color: #344e5d
+}
+.number-carousel .item:hover .number {
+    color: #344e5d
+}
+.progress-list li em {
+    color: #344e5d;
+}
+.progress.plain .bar {
+    background: #344e5d !important;
+}
+.bar-container {
+    border: 1px solid #344e5d;
+}
+.tooltip-inner {
+    background-color: #344e5d;
+}
+.tooltip.top .tooltip-arrow,
+.tooltip.top-left .tooltip-arrow,
+.tooltip.top-right .tooltip-arrow {
+    border-top-color: #344e5d
+}
+.tooltip.right .tooltip-arrow {
+    border-right-color: #344e5d
+}
+.tooltip.left .tooltip-arrow {
+    border-left-color: #344e5d
+}
+.tooltip.bottom .tooltip-arrow,
+.tooltip.bottom-left .tooltip-arrow,
+.tooltip.bottom-right .tooltip-arrow {
+    border-bottom-color: #344e5d
+}
+.nav-tabs > li > a:hover {
+    color: #344e5d;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #344e5d;
+}
+.nav-tabs > li.active > a:after {
+    border-bottom: 1px solid #344e5d;
+}
+.panel-group .panel-heading .panel-title:hover,
+.panel-group .panel-active .panel-heading .panel-title {
+    border: 1px solid #344e5d;
+    color: #344e5d;
+}
+.panel.pricing.active::after {
+    border: 3px solid #344e5d !important;
+}
+.panel.pricing .price {
+    color: #344e5d;
+}
+.vanilla-form input[type="radio"]:focus + span,
+.vanilla-form input[type="checkbox"]:focus + span,
+.vanilla-form input[type="radio"]:active + span,
+.vanilla-form input[type="checkbox"]:active + span {
+    border-color: #344e5d
+}
+.vanilla-form input[type="radio"] + span::after {
+    background-color: #344e5d;
+    border-color: #344e5d;
+}
+.vanilla-form input[type="radio"]:checked + span,
+.vanilla-form input[type="checkbox"]:checked + span {
+    border: 1px solid #344e5d
+}
+.vanilla-form input[type="checkbox"] + span::after {
+    border: 0 solid #344e5d;
+}
+.lg-outer .lg-thumb-item.active,
+.lg-outer .lg-thumb-item.active:hover {
+    border-color: #344e5d
+}
+.lg-toolbar .lg-icon:hover,
+.lg-outer .lg-toogle-thumb:hover,
+.lg-actions .lg-next:hover,
+.lg-actions .lg-prev:hover {
+    color: #344e5d
+}
+@media (min-width: 992px) { 
+	.navbar .dropdown-menu li {
+	    background: #344e5d;
+	}
+	.navbar .nav > li.current > a,
+	.navbar .nav > li > a:hover {
+    	color: #344e5d !important
+	}
+}
+@media (max-width: 991px) { 
+	.navbar .navbar-collapse {
+	    background: #344e5d
+	}
+}
