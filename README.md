@@ -3,7 +3,7 @@
 Github site for ArdaCraft
 
 ## The things
-- [ArdaCraft](https://freshmilkymilk.github.io/ardacraft)
+- [ArdaCraft](https://ardacraft.github.io/ardacraft)
 
 ###TODO - ArdaCraft
 - [x] Home
