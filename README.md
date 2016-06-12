@@ -3,7 +3,7 @@
 Github site for ArdaCraft
 
 ## The things
-- [ArdaCraft](https://ardacraft.github.io/ardacraft)
+- [ArdaCraft](https://ardacraft.io)
 
 ###TODO - ArdaCraft
 - [x] Home
