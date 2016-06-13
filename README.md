@@ -13,3 +13,4 @@ Github site for ArdaCraft
 - [ ] Guides
 - [ ] Modpack
 - [x] Forums
+- [x] Pages
