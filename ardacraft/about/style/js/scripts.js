@@ -750,7 +750,7 @@ $(document).ready(function() {
                 bar.setText((bar.value() * 100).toFixed(0));
             }
         });
-        circle1.animate(0.4);
+        circle1.animate(0.52);
         var circle2 = new ProgressBar.Circle('.circle.second', {
             color: '#f2be3e',
             trailColor: 'rgba(0,0,0,0.05)',
@@ -759,13 +759,13 @@ $(document).ready(function() {
             duration: 4500,
             easing: 'easeInOut',
             text: {
-                value: '0.0'
+                value: '0'
             },
             step: function(state, bar) {
                 bar.setText((bar.value() * 100).toFixed(0));
             }
         });
-        circle2.animate(0.8);
+        circle2.animate(0);
         var circle3 = new ProgressBar.Circle('.circle.third', {
             color: '#e04f5f',
             trailColor: 'rgba(0,0,0,0.05)',
@@ -774,13 +774,13 @@ $(document).ready(function() {
             duration: 4500,
             easing: 'easeInOut',
             text: {
-                value: '0.0'
+                value: '0'
             },
             step: function(state, bar) {
                 bar.setText((bar.value() * 100).toFixed(0));
             }
         });
-        circle3.animate(0.34);
+        circle3.animate(0);
         var circle4 = new ProgressBar.Circle('.circle.fourth', {
             color: '#954e9d',
             trailColor: 'rgba(0,0,0,0.05)',
@@ -789,13 +789,13 @@ $(document).ready(function() {
             duration: 4500,
             easing: 'easeInOut',
             text: {
-                value: '0.0'
+                value: '0'
             },
             step: function(state, bar) {
                 bar.setText((bar.value() * 100).toFixed(0));
             }
         });
-        circle4.animate(0.45);
+        circle4.animate(0);
     }
     /*-----------------------------------------------------------------------------------*/
 	/*	WOW ANIMATION
