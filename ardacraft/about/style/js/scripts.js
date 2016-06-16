@@ -744,7 +744,7 @@ $(document).ready(function() {
             duration: 4500,
             easing: 'easeInOut',
             text: {
-                value: '0.4'
+                value: '0.52'
             },
             step: function(state, bar) {
                 bar.setText((bar.value() * 100).toFixed(0));
@@ -759,7 +759,7 @@ $(document).ready(function() {
             duration: 4500,
             easing: 'easeInOut',
             text: {
-                value: '0.8'
+                value: '0.0'
             },
             step: function(state, bar) {
                 bar.setText((bar.value() * 100).toFixed(0));
@@ -774,7 +774,7 @@ $(document).ready(function() {
             duration: 4500,
             easing: 'easeInOut',
             text: {
-                value: '0.34'
+                value: '0.0'
             },
             step: function(state, bar) {
                 bar.setText((bar.value() * 100).toFixed(0));
@@ -789,7 +789,7 @@ $(document).ready(function() {
             duration: 4500,
             easing: 'easeInOut',
             text: {
-                value: '0.45'
+                value: '0.0'
             },
             step: function(state, bar) {
                 bar.setText((bar.value() * 100).toFixed(0));
@@ -812,7 +812,7 @@ $(document).ready(function() {
 	            callback: function(container, map) {
 	                var $container = $(container),
 	                    center = new google.maps.LatLng($container.attr('data-lat'), $container.attr('data-lng'));
-	
+
 	                map.setOptions({
 	                    center: center,
 	                    zoom: 15,
@@ -911,10 +911,10 @@ $(document).ready(function() {
 	                    position: center,
 	                    map: map
 	                });
-	
+
 	                $.data(map, 'center', center);
 	                mapInstances.push(map);
-	
+
 	                var updateCenter = function() {
 	                    $.data(map, 'center', map.getCenter());
 	                };
@@ -925,13 +925,13 @@ $(document).ready(function() {
 	                });
 	            }
 	        });
-	
+
 	    $window.on('resize', $pluginInstance.debounce(1000, function() {
 	        $.each(mapInstances, function() {
 	            this.setCenter($.data(this, 'center'));
 	        });
 	    }));
-	
+
 	})(jQuery, window, document);
 	/*-----------------------------------------------------------------------------------*/
 	/*	LOADING
