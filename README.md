@@ -7,7 +7,7 @@ Github site for ArdaCraft
 
 ###TODO - ArdaCraft
 - [x] Home
-- [ ] About
+- [x] About
 - [x] Rules
 - [x] FAQ
 - [ ] Guides
