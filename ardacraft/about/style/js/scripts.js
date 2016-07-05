@@ -759,13 +759,13 @@ $(document).ready(function() {
             duration: 4500,
             easing: 'easeInOut',
             text: {
-                value: '0'
+                value: '0.02'
             },
             step: function(state, bar) {
                 bar.setText((bar.value() * 100).toFixed(0));
             }
         });
-        circle2.animate(0);
+        circle2.animate(0.02);
         var circle3 = new ProgressBar.Circle('.circle.third', {
             color: '#e04f5f',
             trailColor: 'rgba(0,0,0,0.05)',
