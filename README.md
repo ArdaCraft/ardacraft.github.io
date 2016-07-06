@@ -10,7 +10,7 @@ Github site for ArdaCraft
 - [x] About
 - [x] Rules
 - [x] FAQ
-- [ ] Guides
-- [ ] Modpack
+- [x] Guides
+- [x] Modpack
 - [x] Forums
 - [x] Pages
