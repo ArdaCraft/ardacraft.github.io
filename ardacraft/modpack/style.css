@@ -613,7 +613,7 @@ blockquote .small {
 /*-----------------------------------------------------------------------------------*/
 .btn {
     color: #FFF !important;
-    background: #25b7d3;
+    background: #0088cc;
     border: 0;
     margin-bottom: 10px;
     margin-right: 4px;
@@ -665,7 +665,7 @@ blockquote .small {
     border-color: transparent;
 }
 .btn.btn-aqua {
-    background: #25b7d3
+    background: #0088cc
 }
 .btn.btn-blue {
     background: #93bfd3
