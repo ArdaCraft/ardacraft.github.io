@@ -1601,7 +1601,7 @@ figure a .overlay.icon .info span:before {
 /* 	12. WIDGETS
 /*-----------------------------------------------------------------------------------*/
 footer a {
-    color: #4d4d4d
+    color: #2e3033
 }
 footer  a:hover {
     color: #25b7d3
@@ -1617,7 +1617,7 @@ footer .copyright {
     margin: 0
 }
 footer.inverse-wrapper .sub-footer {
-    background: #2f2f2f
+    background: #2e3033
 }
 .sub-footer p {
     margin-bottom: 0
