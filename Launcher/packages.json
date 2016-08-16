@@ -4,14 +4,14 @@
     {
       "title" : "ArdaCraft Modpack",
       "name" : "ArdaCraft Modpack",
-      "version" : "2.3",
+      "version" : "2.4",
       "location" : "ardacraft-modpack.json",
       "priority" : 0
     },
     {
       "title" : "ArdaCraft Devpack",
       "name" : "ArdaCraft Devpack",
-      "version" : "1.4",
+      "version" : "1.6",
       "location" : "ardacraft-devpack.json",
       "priority" : 0
     },
