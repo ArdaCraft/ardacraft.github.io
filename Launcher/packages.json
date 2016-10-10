@@ -11,7 +11,7 @@
     {
       "title" : "ArdaCraft Devpack",
       "name" : "ArdaCraft Devpack",
-      "version" : "1.6",
+      "version" : "1.7",
       "location" : "ardacraft-devpack.json",
       "priority" : 0
     },
