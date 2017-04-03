@@ -4,22 +4,29 @@
     {
       "title" : "ArdaCraft Modpack",
       "name" : "ArdaCraft Modpack",
-      "version" : "2.7.1",
+      "version" : "1.0",
       "location" : "ardacraft-modpack.json",
       "priority" : 0
     },
     {
       "title" : "ArdaCraft Devpack",
       "name" : "ArdaCraft Devpack",
-      "version" : "1.9.2",
+      "version" : "1.0",
       "location" : "ardacraft-devpack.json",
       "priority" : 0
     },
     {
-      "title" : "ArdaCraft Legacypack",
-      "name" : "ArdaCraft Legacypack",
+      "title" : "ArdaCraft Legacypack (1.8.9)",
+      "name" : "ArdaCraft Legacypack (1.8.9)",
       "version" : "1.0",
-      "location" : "ardacraft-legacypack.json",
+      "location" : "ardacraft-legacypack-1.8.9-.json",
+      "priority" : 0
+    },
+    {
+      "title" : "ArdaCraft Legacypack (1.7.10)",
+      "name" : "ArdaCraft Legacypack (1.7.10)",
+      "version" : "1.0",
+      "location" : "ardacraft-legacypack-1.7.10-.json",
       "priority" : 0
     }
   ]
