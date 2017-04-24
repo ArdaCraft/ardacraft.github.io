@@ -1,5 +1,5 @@
 const minecraftAPI = 'https://dags.me/status/mc.ardacraft.me';
-const minecraftLink = 'https://minecraft.me/map';
+const minecraftLink = 'https://ardacraft.me/map';
 
 function initMinecraft(title, content) {
     query(minecraftAPI, title, content, drawMinecraft);
@@ -13,8 +13,8 @@ function drawMinecraft(title, content, status) {
     const minecraftTitle = document.getElementById(title);
     const minecraftContent = document.getElementById(content);
 
-    clear(minecraftTitle);
-    clear(minecraftContent);
+    clearMC(minecraftTitle);
+    clearMC(minecraftContent);
 
     var title = createMCTitle(status);
     minecraftTitle.appendChild(title);
@@ -31,12 +31,13 @@ function drawMinecraft(title, content, status) {
 
 function createMCTitle(status) {
     var online = status['online'];
+    var max = status['max'];
     var title = document.createElement('a');
-    title.title = 'server ip: mc.ardacraft.me';
 
-    if (online !== undefined) {
+    if (online !== undefined && max !== undefined) {
         title.href = minecraftLink;
-        title.innerText = `ArdaCraft: ${online} Online`;
+        title.target = '_blank'
+        title.innerText = `ArdaCraft: ${online} / ${max}`;
     } else {
         title.innerText = 'ArdaCraft: Status Unavailable';
     }
@@ -45,8 +46,25 @@ function createMCTitle(status) {
 }
 
 function createMCUser(player) {
+    var container = document.createElement('div');
+    container.className = 'server-tooltip';
+
     var avatar = document.createElement('img');
-    avatar.title = player;
     avatar.src = createHeadURL(player);
-    return avatar;
+
+    var tooltip = document.createElement('div');
+    tooltip.className = 'server-tooltiptext';
+    tooltip.innerText = player;
+
+    container.appendChild(avatar);
+    container.appendChild(tooltip);
+
+    return container;
+}
+
+function clearMC(node) {
+    while (node.lastChild) {
+        node.removeChild(node.lastChild);
+    }
+    return node;
 }
