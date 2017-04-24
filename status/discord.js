@@ -51,8 +51,8 @@ function createDiscordUser(member) {
     tooltip.className = `server-tooltiptext status-${member.status}`;
     tooltip.innerHTML = member['username'];
 
-    container.appendChild(tooltip);
     container.appendChild(avatar);
+    container.appendChild(tooltip);
 
     return container;
 }
