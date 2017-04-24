@@ -53,7 +53,7 @@ function createMCUser(player) {
     avatar.src = createHeadURL(player);
 
     var tooltip = document.createElement('div');
-    tooltip.className = 'server-tooltiptext';
+    tooltip.className = 'server-tooltiptext status-online';
     tooltip.innerText = player;
 
     container.appendChild(avatar);
