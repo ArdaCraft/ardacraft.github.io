@@ -13,8 +13,8 @@ function drawMinecraft(title, content, status) {
     const minecraftTitle = document.getElementById(title);
     const minecraftContent = document.getElementById(content);
 
-    clearMC(minecraftTitle);
-    clearMC(minecraftContent);
+    clear(minecraftTitle);
+    clear(minecraftContent);
 
     var title = createMCTitle(status);
     minecraftTitle.appendChild(title);
@@ -31,12 +31,12 @@ function drawMinecraft(title, content, status) {
 
 function createMCTitle(status) {
     var online = status['online'];
-    var max = status['max'];
     var title = document.createElement('a');
+    title.title = 'server ip: mc.ardacraft.me';
 
-    if (online !== undefined && max !== undefined) {
+    if (online !== undefined) {
         title.href = minecraftLink;
-        title.innerText = `ArdaCraft: ${online} / ${max}`;
+        title.innerText = `ArdaCraft: ${online} Online`;
     } else {
         title.innerText = 'ArdaCraft: Status Unavailable';
     }
@@ -49,11 +49,4 @@ function createMCUser(player) {
     avatar.title = player;
     avatar.src = createHeadURL(player);
     return avatar;
-}
-
-function clearMC(node) {
-    while (node.lastChild) {
-        node.removeChild(node.lastChild);
-    }
-    return node;
 }
