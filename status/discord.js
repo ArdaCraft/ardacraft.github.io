@@ -1,19 +1,18 @@
 const discordAPI = 'https://dags.me/discord/207677939146424331';
-const discordLink = 'https://discord.gg/fykFabG';
 
 function initDiscord(title, content) {
     query(discordAPI, title, content, drawDiscord);
 }
 
-function drawDiscord(title, content, json) {
+function drawDiscord(title, content, status) {
     const discordTitle = document.getElementById(title);
     const discordContent = document.getElementById(content);
 
     clear(discordTitle);
     clear(discordContent);
 
-    var members = json['members'];
-    var title = createDiscordTitle(members);
+    var members = status['members'];
+    var title = createDiscordTitle(status);
     discordTitle.appendChild(title);
 
     if (members !== undefined) {
@@ -25,13 +24,19 @@ function drawDiscord(title, content, json) {
     }
 }
 
-function createDiscordTitle(members) {
-    var total = members.length;
+function createDiscordTitle(status) {
+    var members = status['members'];
+    var invite = status['instant_invite'];
     var title = document.createElement('a');
-    title.href = discordLink;
+    
     title.target = '_blank';
+    
+    if (invite !== undefined) {
+        title.href = invite;
+    }
 
     if (members !== undefined) {
+        var total = members.length;
         title.innerText = `Discord: ${total} Online`;
     } else {
         title.innerText = 'Discord: Status Unavailable';
