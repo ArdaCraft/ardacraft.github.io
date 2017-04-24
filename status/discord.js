@@ -36,8 +36,7 @@ function createDiscordTitle(status) {
     }
 
     if (members !== undefined) {
-        var total = members.length;
-        title.innerText = `Discord: ${total} Online`;
+        title.innerText = `Discord: ${members.length} Online`;
     } else {
         title.innerText = 'Discord: Status Unavailable';
     }
