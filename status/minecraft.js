@@ -37,7 +37,7 @@ function createMCTitle(status) {
     if (online !== undefined && max !== undefined) {
         title.href = minecraftLink;
         title.target = '_blank'
-        title.innerText = `ArdaCraft: ${online} / ${max}`;
+        title.innerText = `ArdaCraft: ${online} Online`;
     } else {
         title.innerText = 'ArdaCraft: Status Unavailable';
     }
