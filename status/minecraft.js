@@ -13,8 +13,8 @@ function drawMinecraft(title, content, status) {
     const minecraftTitle = document.getElementById(title);
     const minecraftContent = document.getElementById(content);
 
-    clearMC(minecraftTitle);
-    clearMC(minecraftContent);
+    clear(minecraftTitle);
+    clear(minecraftContent);
 
     var title = createMCTitle(status);
     minecraftTitle.appendChild(title);
@@ -60,11 +60,4 @@ function createMCUser(player) {
     container.appendChild(tooltip);
 
     return container;
-}
-
-function clearMC(node) {
-    while (node.lastChild) {
-        node.removeChild(node.lastChild);
-    }
-    return node;
 }
