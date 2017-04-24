@@ -1,4 +1,4 @@
-const discordAPI = 'https://discordapp.com/api/guilds/207677939146424331/widget.json';
+const discordAPI = 'https://dags.me/discord/207677939146424331';
 const discordLink = 'https://discord.gg/fykFabG';
 
 function initDiscord(title, content) {
@@ -49,10 +49,10 @@ function createDiscordUser(member) {
 
     var tooltip = document.createElement('div');
     tooltip.className = `server-tooltiptext status-${member.status}`;
-    tooltip.innerHTML = member['username'];
+    tooltip.innerText = member['username'];
 
-    container.appendChild(avatar);
     container.appendChild(tooltip);
+    container.appendChild(avatar);
 
     return container;
 }
