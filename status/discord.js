@@ -29,6 +29,7 @@ function createDiscordTitle(members) {
     var total = members.length;
     var title = document.createElement('a');
     title.href = discordLink;
+    title.target = '_blank';
 
     if (members !== undefined) {
         title.innerText = `Discord: ${total} Online`;
@@ -40,9 +41,18 @@ function createDiscordTitle(members) {
 }
 
 function createDiscordUser(member) {
+    var container = document.createElement('div');
+    container.className = 'server-tooltip';
+
     var avatar = document.createElement('img');
     avatar.src = member['avatar_url'];
-    avatar.title = member['username'];
-    avatar.className = `status-${member.status}`;
-    return avatar;
+
+    var tooltip = document.createElement('div');
+    tooltip.className = `server-tooltiptext status-${member.status}`;
+    tooltip.innerHTML = member['username'];
+
+    container.appendChild(tooltip);
+    container.appendChild(avatar);
+
+    return container;
 }
