@@ -1,15 +1,17 @@
 const minecraftAPI = 'https://dags.me/status/mc.ardacraft.me';
+const minecraftAPI2 = 'https://status.ardacraft.io/';
 const minecraftLink = 'https://ardacraft.me/map';
 
 function initMinecraft(title, content) {
-    query(minecraftAPI, title, content, drawMinecraft);
+    query(minecraftAPI2, title, content, drawMinecraft);
 }
 
 function createHeadURL(player) {
     return `https://minotar.net/helm/${player}`;
 }
 
-function drawMinecraft(title, content, status) {
+function drawMinecraft(title, content, response) {
+    const status = response['Data'];
     const minecraftTitle = document.getElementById(title);
     const minecraftContent = document.getElementById(content);
 
