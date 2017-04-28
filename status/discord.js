@@ -4,7 +4,8 @@ function initDiscord(title, content) {
     query(discordAPI, title, content, drawDiscord);
 }
 
-function drawDiscord(title, content, status) {
+function drawDiscord(title, content, json) {
+    const status = json['data'];
     const discordTitle = document.getElementById(title);
     const discordContent = document.getElementById(content);
 
