@@ -23,6 +23,7 @@ blocks {
     S:leavesClassesWhitelist <
         net.minecraft.block.BlockLeaves
         net.creativerealmsmc.conquest.blocks.MetaBlocks.BlockLeavesMeta
+        net.creativerealmsmc.conquest.blocks.MetaBlocks.BlockLeavesFull3Meta
      >
     S:leavesClassesBlacklist <
      >
@@ -37,15 +38,15 @@ blocks {
         tconstruct.blocks.slime.SlimeGrass
         enhancedbiomes.blocks.BlockGrassEB
         com.bioxx.tfc.Blocks.Terrain.BlockGrass
-		net.creativerealmsmc.conquest.blocks.MetaBlocks.BlockPartialMippedBasicMeta
+        net.creativerealmsmc.conquest.blocks.MetaBlocks.BlockPartialMippedBasicMeta
      >
     S:grassClassesBlacklist <
      >
     S:grassModels <
         block/grass,top
         block/cube_bottom_top,top
-		conquest:block/grass_forest_full,top
-		conquest:block/grass_forest_snowlayer,top
+        conquest:block/grass_forest_full,top
+        conquest:block/grass_forest_snowlayer,top
      >
     S:dirtWhitelist <
         net.minecraft.block.BlockDirt
@@ -340,6 +341,7 @@ shortGrass {
     D:heightMin=0.6
     D:heightMax=0.8
     D:size=1.0
+    I:population=64
     B:useGenerated=false
     B:shaderWind=true
     D:saturationThreshold=0.1
@@ -359,3 +361,5 @@ shortgrass {
     B:snowEnabled=false
     B:useGenerated=false
 }
+
+
