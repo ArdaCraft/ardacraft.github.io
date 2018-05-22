@@ -8,8 +8,8 @@
    "gameVersion":"1.8.9",
    "features":[
       {
-         "name":"Conquest Soundpack",
-         "description":"Hymns of Conquest replaces some of minecrafts sounds with new medieval sounds.\n\nMade by Monsterfish_ http://www.planetminecraft.com/texture_pack/hyms-of-conquest/"
+         "name":"Tabby Chat",
+         "description":"Mod that adds a different chat window with more features than the default chat window. TabbyChat 2 is the successor to TabbyChat, which was originally created by RocketMan10404, and now maintained by killjoy1221.  https://github.com/killjoy1221/TabbyChat-2"
       },
       {
          "name":"Better Foliage",
@@ -17,26 +17,26 @@
          "recommendation":"starred"
       },
       {
-         "name":"Chunk Animator",
-         "description":"When new chunks are loaded in vanilla minecraft they simply \"appear instantly\", with this mod they can be animated to either appear from below or above. This mod shouldn't impact fps considerably because all it does is render chunks \"somewhere else\". Created by Lumien."
-      },
-      {
          "name":"Matmos",
          "description":"Atmospheric sounds simulator. You must enable the MSI.Conversion resourcepack for this to work. \n\nOriginally by Hurricaaane, then Dags, and now currently Sollace. https://github.com/Sollace/MAtmos",
          "recommendation":"starred"
       },
       {
-         "name":"Tabby Chat",
-         "description":"Mod that adds a different chat window with more features than the default chat window. TabbyChat 2 is the successor to TabbyChat, which was originally created by RocketMan10404, and now maintained by killjoy1221.  https://github.com/killjoy1221/TabbyChat-2"
-      },
-      {
-         "name":"Voxel Map",
-         "description":"Minimap that also has a scrollable, zoomable world map (access with hotkey 'm'). Click and drag with the mouse, mousewheel to zoom. Right click to manage waypoints and stuff."
+         "name":"Conquest Soundpack",
+         "description":"Hymns of Conquest replaces some of minecrafts sounds with new medieval sounds.\n\nMade by Monsterfish_ http://www.planetminecraft.com/texture_pack/hyms-of-conquest/"
       },
       {
          "name":"Presence Footsteps",
          "description":"An overly complicated footstep sound enhancement mod for Minecraft, that adds footsteps and various other sounds into the game. You must add the PresenceFootstepsOfficial and PF.Resources resourcepacks for this to work! \n\nOriginally by Huricaaaane, now maintained by Sollace. https://github.com/Sollace/Presence-Footsteps",
          "recommendation":"starred"
+      },
+      {
+         "name":"Chunk Animator",
+         "description":"When new chunks are loaded in vanilla minecraft they simply \"appear instantly\", with this mod they can be animated to either appear from below or above. This mod shouldn't impact fps considerably because all it does is render chunks \"somewhere else\". Created by Lumien."
+      },
+      {
+         "name":"Voxel Map",
+         "description":"Minimap that also has a scrollable, zoomable world map (access with hotkey 'm'). Click and drag with the mouse, mousewheel to zoom. Right click to manage waypoints and stuff."
       }
    ],
    "tasks":[

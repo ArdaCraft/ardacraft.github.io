@@ -12,6 +12,19 @@
          "description":"TabbyChat is a client-side mod for Minecraft that aims to make the multiplayer chat interface more organized, managable, and user-friendly."
       },
       {
+         "name":"Journey Map",
+         "description":"JourneyMap is a client+server mod for Forge which maps your Minecraft world in real-time as you explore.",
+         "recommendation":"starred"
+      },
+      {
+         "name":"CMD Cam",
+         "description":"Camera Mod created by CreativeMD"
+      },
+      {
+         "name":"WorldEdit CUI",
+         "description":"This mod provides a client-side user interface for the WorldEdit plugin allowing you to see your selected region in-game in real time."
+      },
+      {
          "name":"Chat Bubbles",
          "description":"Chat Bubbles is a mod that displays things other players say above their heads in a chat bubble, like some MMORPGs."
       },
@@ -21,22 +34,9 @@
          "recommendation":"starred"
       },
       {
-         "name":"WorldEdit CUI",
-         "description":"This mod provides a client-side user interface for the WorldEdit plugin allowing you to see your selected region in-game in real time."
-      },
-      {
-         "name":"Journey Map",
-         "description":"JourneyMap is a client+server mod for Forge which maps your Minecraft world in real-time as you explore.",
-         "recommendation":"starred"
-      },
-      {
          "name":"Presencefootsteps",
          "description":"An overly complicated footstep sound enhancement mod for Minecraft.",
          "recommendation":"starred"
-      },
-      {
-         "name":"CMD Cam",
-         "description":"Camera Mod created by CreativeMD"
       }
    ],
    "tasks":[

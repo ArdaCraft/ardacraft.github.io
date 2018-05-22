@@ -12,22 +12,12 @@
          "description":"Like Matmos, adds sound physics to your game."
       },
       {
-         "name":"Better Foliage",
-         "description":"Better Foliage is a Forge mod that will make your Minecraft worlds more impressive, mainly by improving how vegetation looks.",
-         "recommendation":"starred",
-         "selected":true
-      },
-      {
-         "name":"WorldEdit CUI",
-         "description":"This mod provides a client-side user interface for the WorldEdit plugin allowing you to see your selected region in-game in real time."
-      },
-      {
          "name":"CMD Cam",
          "description":"Camera Mod created by CreativeMD"
       },
       {
-         "name":"Dynamic Surroundings",
-         "description":"Dynamic Surroundings is a mod much like Matmos that adds enviornmental sounds to your game."
+         "name":"Tabby Chat",
+         "description":"TabbyChat is a client-side mod for Minecraft that aims to make the multiplayer chat interface more organized, managable, and user-friendly."
       },
       {
          "name":"Journey Map",
@@ -35,16 +25,26 @@
          "recommendation":"starred"
       },
       {
-         "name":"Tabby Chat",
-         "description":"TabbyChat is a client-side mod for Minecraft that aims to make the multiplayer chat interface more organized, managable, and user-friendly."
+         "name":"Better Foliage",
+         "description":"Better Foliage is a Forge mod that will make your Minecraft worlds more impressive, mainly by improving how vegetation looks.",
+         "recommendation":"starred",
+         "selected":true
+      },
+      {
+         "name":"Stellar Sky",
+         "description":"Adds a more realistic sky to your game."
       },
       {
          "name":"QuickHotBar",
          "description":"Adds extra hot bars on top of your existing hot bar."
       },
       {
-         "name":"Stellar Sky",
-         "description":"Adds a more realistic sky to your game."
+         "name":"WorldEdit CUI",
+         "description":"This mod provides a client-side user interface for the WorldEdit plugin allowing you to see your selected region in-game in real time."
+      },
+      {
+         "name":"Dynamic Surroundings",
+         "description":"Dynamic Surroundings is a mod much like Matmos that adds enviornmental sounds to your game."
       }
    ],
    "tasks":[
@@ -160,6 +160,19 @@
          "location":"92/9d/929d6c513497dacbbab0f0acae6a02d28a16815d",
          "to":"mods/Sound-Physics-1.12.2.jar",
          "size":22030
+      },
+      {
+         "type":"file",
+         "when":{
+            "if":"requireAny",
+            "features":[
+               "Stellar Sky"
+            ]
+         },
+         "hash":"edc3c564e0dfc1792d73f6ea347c69eb1cd16485",
+         "location":"ed/c3/edc3c564e0dfc1792d73f6ea347c69eb1cd16485",
+         "to":"mods/Stellar+API-1.12.2-0.4.2.8.jar",
+         "size":388694
       },
       {
          "type":"file",

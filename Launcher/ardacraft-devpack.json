@@ -86,6 +86,13 @@
       },
       {
          "type":"file",
+         "hash":"edc3c564e0dfc1792d73f6ea347c69eb1cd16485",
+         "location":"ed/c3/edc3c564e0dfc1792d73f6ea347c69eb1cd16485",
+         "to":"mods/Stellar+API-1.12.2-0.4.2.8.jar",
+         "size":388694
+      },
+      {
+         "type":"file",
          "hash":"876cc62b8224c72af475856feb51831e8dbee3c6",
          "location":"87/6c/876cc62b8224c72af475856feb51831e8dbee3c6",
          "to":"mods/Stellar+Sky-1.12.2-0.5.2.8.jar",
