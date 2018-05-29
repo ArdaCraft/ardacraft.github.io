@@ -1,7 +1,7 @@
 {
    "title":"ArdaCraft Devpack",
    "name":"ArdaCraft Devpack",
-   "version":"2.1",
+   "version":"2.2",
    "minimumVersion":2,
    "librariesLocation":"libraries",
    "objectsLocation":"objects",
@@ -30,10 +30,10 @@
       },
       {
          "type":"file",
-         "hash":"8b3046d29f3bbea4ec446e0d6cbd3c09b0e345b0",
-         "location":"8b/30/8b3046d29f3bbea4ec446e0d6cbd3c09b0e345b0",
-         "to":"mods/ConquestReforged-3.0.1-mc1.12.2.jar",
-         "size":61446817
+         "hash":"267005d251c0441a995b553894e9ca8418cdcd69",
+         "location":"26/70/267005d251c0441a995b553894e9ca8418cdcd69",
+         "to":"mods/ConquestReforged-3.0.2-mc1.12.2.jar",
+         "size":60802913
       },
       {
          "type":"file",
@@ -131,17 +131,17 @@
       },
       {
          "type":"file",
-         "hash":"39e992cc0b3a5b915a57bfbfe8fcce39956ab24b",
-         "location":"39/e9/39e992cc0b3a5b915a57bfbfe8fcce39956ab24b",
-         "to":"resourcepacks/AC_Overlay-1.9.zip",
-         "size":27273896
+         "hash":"b10b25179958a3fa82a1bce36b91e61ad3b6573b",
+         "location":"b1/0b/b10b25179958a3fa82a1bce36b91e61ad3b6573b",
+         "to":"resourcepacks/AC_Overlay-2.0.zip",
+         "size":24227818
       },
       {
          "type":"file",
-         "hash":"5d014824b8789c02c90162c6fc2921d78577450a",
-         "location":"5d/01/5d014824b8789c02c90162c6fc2921d78577450a",
+         "hash":"fb337a6ce35dedcf54c9a28db9b38489169fe251",
+         "location":"fb/33/fb337a6ce35dedcf54c9a28db9b38489169fe251",
          "to":"resourcepacks/Conquest Reforged.zip",
-         "size":85128102
+         "size":85322951
       },
       {
          "type":"file",
