@@ -2,15 +2,10 @@
   "minimumVersion" : 1,
   "packages" : [
     {
-      "title" : "ArdaCraft Modpack 1.12.2",
+     "title" : "ArdaCraft Modpack 1.12.2",
       "name" : "ArdaCraft Modpack 1.12.2",
-<<<<<<< HEAD
       "version" : "2.3",
-      "location" : "ardacraft-modpack.json",
-=======
-      "version" : "2.2",
       "location" : "ardacraft-modpack-1.12.2.json",
->>>>>>> 111b5623f5568fe9c4e8b096521ba5328cbef218
       "priority" : 0
     },
     {
