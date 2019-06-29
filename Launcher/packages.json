@@ -4,14 +4,14 @@
     {
      "title" : "ArdaCraft Modpack 1.12.2",
       "name" : "ArdaCraft Modpack 1.12.2",
-      "version" : "2.4",
+      "version" : "2.4.1",
       "location" : "ardacraft-modpack-1.12.2.json",
       "priority" : 0
     },
     {
       "title" : "ArdaCraft Devpack",
       "name" : "ArdaCraft Devpack",
-      "version" : "2.5",
+      "version" : "2.5.1",
       "location" : "ardacraft-devpack.json",
       "priority" : 0
     },
@@ -32,14 +32,14 @@
     {
       "title" : "Conquest Reforged (advanced) MC 1.12.2",
       "name" : "ConquestReforgedAdvanced1.12.2",
-      "version" : "3.0.12",
+      "version" : "3.0.2",
       "location" : "https://leondonis.github.io/CRlauncher/Launcher/conquestreforgedadvanced1.12.2.json",
       "priority" : 3
     },
     {
       "title" : "Conquest Reforged (basic) MC 1.12.2",
       "name" : "ConquestReforgedBasic1.12.2",
-      "version" : "3.0.12",
+      "version" : "3.0.2",
       "location" : "https://leondonis.github.io/CRlauncher/Launcher/conquestreforgedbasic1.12.2.json",
       "priority" : 2
     }
