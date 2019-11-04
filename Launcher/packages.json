@@ -4,7 +4,7 @@
     {
      "title" : "ArdaCraft Modpack 1.12.2",
       "name" : "ArdaCraft Modpack 1.12.2",
-      "version" : "2.4.2",
+      "version" : "2.4.3",
       "location" : "ardacraft-modpack-1.12.2.json",
       "priority" : 0
     },
@@ -13,35 +13,42 @@
       "name" : "ArdaCraft Devpack",
       "version" : "2.5.3",
       "location" : "ardacraft-devpack.json",
-      "priority" : 0
+      "priority" : 1
+    },
+    {
+      "title" : "ArdaCraft Legacypack (1.10.2)",
+      "name" : "ArdaCraft Legacypack (1.10.2)",
+      "version" : "1.0",
+      "location" : "ardacraft-legacypack-1.10.2-.json",
+      "priority" : 2
     },
     {
       "title" : "ArdaCraft Legacypack (1.8.9)",
       "name" : "ArdaCraft Legacypack (1.8.9)",
       "version" : "1.0",
       "location" : "ardacraft-legacypack-1.8.9-.json",
-      "priority" : 0
+      "priority" : 3
     },
     {
       "title" : "ArdaCraft Legacypack (1.7.10)",
       "name" : "ArdaCraft Legacypack (1.7.10)",
       "version" : "1.0",
       "location" : "ardacraft-legacypack-1.7.10-.json",
-      "priority" : 0
+      "priority" : 4
     },
     {
       "title" : "Conquest Reforged (advanced) MC 1.12.2",
       "name" : "ConquestReforgedAdvanced1.12.2",
       "version" : "3.0.2",
       "location" : "https://leondonis.github.io/CRlauncher/Launcher/conquestreforgedadvanced1.12.2.json",
-      "priority" : 3
+      "priority" : 6
     },
     {
       "title" : "Conquest Reforged (basic) MC 1.12.2",
       "name" : "ConquestReforgedBasic1.12.2",
       "version" : "3.0.2",
       "location" : "https://leondonis.github.io/CRlauncher/Launcher/conquestreforgedbasic1.12.2.json",
-      "priority" : 2
+      "priority" : 5
     }
   ]
 }
