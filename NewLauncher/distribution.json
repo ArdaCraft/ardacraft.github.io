@@ -13,7 +13,7 @@
       "description": "ArdaCraft Running Minecraft 1.12.2 (Forge v14.23.5.2854) (Liteloader v1.12.2)",
       "icon": null,
       "version": "1.0.0",
-      "address": "mc.ardacraft.me",
+      "address": "mc.ardacraft.me:25565",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -263,6 +263,16 @@
             "size": 964946,
             "MD5": "07ba45ab67463150b3fdd6e51df8fd97",
             "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/required/NoClip-1.2-mc1.12.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:optifine:1.12.2_HD_U_F5@jar",
+          "name": "OptiFine 1.12.2_HD_U_F5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2598821,
+            "MD5": "043ac1db6f7441ea4cf31bcb621aff0b",
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_F5.jar"
           }
         },
         {
