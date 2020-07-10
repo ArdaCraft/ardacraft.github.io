@@ -30,7 +30,7 @@
           "artifact": {
             "size": 4464068,
             "MD5": "ff6f0650ff84d4c8e03da9a4f536d9e1",
-            "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar"
           },
           "subModules": [
             {
@@ -40,7 +40,7 @@
               "artifact": {
                 "size": 10873,
                 "MD5": "814f52398b6ebf70d22571307d2298eb",
-                "url": "http://localhost:8080/repo/versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.json"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.json"
               }
             },
             {
@@ -50,7 +50,7 @@
               "artifact": {
                 "size": 387903,
                 "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
               }
             },
             {
@@ -60,7 +60,7 @@
               "artifact": {
                 "size": 32999,
                 "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                "url": "http://localhost:8080/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
               }
             },
             {
@@ -70,7 +70,7 @@
               "artifact": {
                 "size": 614590,
                 "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                "url": "http://localhost:8080/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
               }
             },
             {
@@ -80,7 +80,7 @@
               "artifact": {
                 "size": 2514991,
                 "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
-                "url": "http://localhost:8080/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
               }
             },
             {
@@ -90,7 +90,7 @@
               "artifact": {
                 "size": 219554,
                 "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
-                "url": "http://localhost:8080/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
               }
             },
             {
@@ -100,7 +100,7 @@
               "artifact": {
                 "size": 58018,
                 "MD5": "f5e79398daa1806f8b17311a3c782723",
-                "url": "http://localhost:8080/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
               }
             },
             {
@@ -110,7 +110,7 @@
               "artifact": {
                 "size": 13449765,
                 "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                "url": "http://localhost:8080/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
               }
             },
             {
@@ -120,7 +120,7 @@
               "artifact": {
                 "size": 25365,
                 "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "http://localhost:8080/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
               }
             },
             {
@@ -130,7 +130,7 @@
               "artifact": {
                 "size": 206575,
                 "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "http://localhost:8080/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
               }
             },
             {
@@ -140,7 +140,7 @@
               "artifact": {
                 "size": 5538130,
                 "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                "url": "http://localhost:8080/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
               }
             },
             {
@@ -150,7 +150,7 @@
               "artifact": {
                 "size": 419701,
                 "MD5": "4e694499c965af4a02599c99d4f0b196",
-                "url": "http://localhost:8080/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
               }
             },
             {
@@ -160,7 +160,7 @@
               "artifact": {
                 "size": 4372892,
                 "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                "url": "http://localhost:8080/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
               }
             },
             {
@@ -170,7 +170,7 @@
               "artifact": {
                 "size": 726500,
                 "MD5": "1009d69e4948045383f2a7a334348af5",
-                "url": "http://localhost:8080/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
               }
             },
             {
@@ -180,7 +180,7 @@
               "artifact": {
                 "size": 648679,
                 "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                "url": "http://localhost:8080/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
               }
             },
             {
@@ -190,7 +190,7 @@
               "artifact": {
                 "size": 5762,
                 "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                "url": "http://localhost:8080/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
               }
             },
             {
@@ -200,7 +200,7 @@
               "artifact": {
                 "size": 318956,
                 "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "http://localhost:8080/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
               }
             },
             {
@@ -210,7 +210,7 @@
               "artifact": {
                 "size": 2523218,
                 "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "http://localhost:8080/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
               }
             },
             {
@@ -220,7 +220,7 @@
               "artifact": {
                 "size": 54961,
                 "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                "url": "http://localhost:8080/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
               }
             },
             {
@@ -230,7 +230,7 @@
               "artifact": {
                 "size": 78175,
                 "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                "url": "http://localhost:8080/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
               }
             }
           ]
@@ -242,7 +242,7 @@
           "artifact": {
             "size": 26676,
             "MD5": "c19a7111992d4ef212892adc2f677906",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/required/ACResourceUpdater-1.2-SNAPSHOT.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/required/ACResourceUpdater-1.2-SNAPSHOT.jar"
           }
         },
         {
@@ -252,7 +252,7 @@
           "artifact": {
             "size": 60802913,
             "MD5": "4ad1a90bcbecae097b984a4ee3695929",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/required/ConquestReforged-3.0.2-mc1.12.2.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/required/ConquestReforged-3.0.2-mc1.12.2.jar"
           }
         },
         {
@@ -262,7 +262,7 @@
           "artifact": {
             "size": 964946,
             "MD5": "07ba45ab67463150b3fdd6e51df8fd97",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/required/NoClip-1.2-mc1.12.2.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/required/NoClip-1.2-mc1.12.2.jar"
           }
         },
         {
@@ -272,7 +272,7 @@
           "artifact": {
             "size": 1014873,
             "MD5": "e7e75c4bbca9a3ae10fa1aadc600cac5",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/required/daflight-5.2.3-mc1.12.2.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/required/daflight-5.2.3-mc1.12.2.jar"
           }
         },
         {
@@ -282,7 +282,7 @@
           "artifact": {
             "size": 937680,
             "MD5": "fe8b72e0045c06136ca64f736090ac7a",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/optionalon/BetterFoliage-MC1.12-2.3.1.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionalon/BetterFoliage-MC1.12-2.3.1.jar"
           },
           "required": {
             "value": false
@@ -295,7 +295,7 @@
           "artifact": {
             "size": 983830,
             "MD5": "5491c2c0e5462dc3812e826db1d5bb07",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/optionalon/Camera-1.0.0-mc1.12.2.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionalon/Camera-1.0.0-mc1.12.2.jar"
           },
           "required": {
             "value": false
@@ -308,7 +308,7 @@
           "artifact": {
             "size": 6278399,
             "MD5": "2da79fce72265eab0541e565636d389d",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/optionalon/Forgelin-1.8.4.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionalon/Forgelin-1.8.4.jar"
           },
           "required": {
             "value": false
@@ -321,7 +321,7 @@
           "artifact": {
             "size": 459294,
             "MD5": "2b8c1c3bc48c2d80b71daa658f656edb",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/optionalon/WorldEdit+CUI+Forge+Edition+2-2.2.0-mf-1.12.2-14.23.5.2768.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionalon/WorldEdit+CUI+Forge+Edition+2-2.2.0-mf-1.12.2-14.23.5.2768.jar"
           },
           "required": {
             "value": false
@@ -334,7 +334,7 @@
           "artifact": {
             "size": 6990968,
             "MD5": "8160b970fc14cff30dff2785bb9f964c",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/optionalon/journeymap-1.12.2-5.7.1.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionalon/journeymap-1.12.2-5.7.1.jar"
           },
           "required": {
             "value": false
@@ -347,7 +347,7 @@
           "artifact": {
             "size": 78486,
             "MD5": "35660bcbc1a0721d2da689134d29d353",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/optionaloff/CMDCam_v1.4.7_mc1.12.2.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/CMDCam_v1.4.7_mc1.12.2.jar"
           },
           "required": {
             "value": false,
@@ -361,7 +361,7 @@
           "artifact": {
             "size": 1090904,
             "MD5": "ce9692bdbf5a16c1d48354b67fb8022e",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/optionaloff/CreativeCore_v1.10.16_mc1.12.2.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/CreativeCore_v1.10.16_mc1.12.2.jar"
           },
           "required": {
             "value": false,
@@ -375,7 +375,7 @@
           "artifact": {
             "size": 16014866,
             "MD5": "b587a5c7a4791894a3531577e4bbec81",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/optionaloff/DynamicSurroundings-1.12.2-3.6.0.2.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/DynamicSurroundings-1.12.2-3.6.0.2.jar"
           },
           "required": {
             "value": false,
@@ -389,7 +389,7 @@
           "artifact": {
             "size": 341728,
             "MD5": "00cce3b240365458adcad3e77782358a",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/optionaloff/OreLib-1.12.2-3.6.0.1.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/OreLib-1.12.2-3.6.0.1.jar"
           },
           "required": {
             "value": false,
@@ -403,7 +403,7 @@
           "artifact": {
             "size": 31208,
             "MD5": "4eb92f344945e4cfe5bd25c92cb9b1de",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/optionaloff/Sound-Physics-1.12.2-1.0.9.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/Sound-Physics-1.12.2-1.0.9.jar"
           },
           "required": {
             "value": false,
@@ -417,7 +417,7 @@
           "artifact": {
             "size": 1680383,
             "MD5": "1420785ecbfed5aff4a586c5c9dd97eb",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/optionaloff/liteloader-1.12.2-SNAPSHOT-release.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/liteloader-1.12.2-SNAPSHOT-release.jar"
           },
           "required": {
             "value": false,
@@ -431,7 +431,7 @@
           "artifact": {
             "size": 731531,
             "MD5": "643350918c11bcc02fbcfb2732abe4b1",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/optionaloff/mod-tabbychat-2.3.4-mc1.12.2.litemod"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/mod-tabbychat-2.3.4-mc1.12.2.litemod"
           },
           "required": {
             "value": false,
@@ -445,7 +445,7 @@
           "artifact": {
             "size": 110248,
             "MD5": "5703593a1879c0c428df490ec4f6b290",
-            "url": "http://localhost:8080/servers/main-1.12.2/forgemods/optionaloff/quickhotbar_1122_1.05.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/quickhotbar_1122_1.05.jar"
           },
           "required": {
             "value": false,
@@ -459,7 +459,7 @@
           "artifact": {
             "size": 8119,
             "MD5": "c3a4242b285b158488662884deb222ef",
-            "url": "http://localhost:8080/servers/main-1.12.2/files/config/BetterFoliage.cfg",
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/files/config/BetterFoliage.cfg",
             "path": "config/BetterFoliage.cfg"
           }
         },
@@ -470,7 +470,7 @@
           "artifact": {
             "size": 3172,
             "MD5": "62b935ac683799d0f558589f4758bcdb",
-            "url": "http://localhost:8080/servers/main-1.12.2/files/options.txt",
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/files/options.txt",
             "path": "options.txt"
           }
         },
@@ -481,7 +481,7 @@
           "artifact": {
             "size": 1251,
             "MD5": "afe95e4a1bf990b52b58ceeb83d2c82a",
-            "url": "http://localhost:8080/servers/main-1.12.2/files/optionsof.txt",
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/files/optionsof.txt",
             "path": "optionsof.txt"
           }
         },
@@ -492,7 +492,7 @@
           "artifact": {
             "size": 354,
             "MD5": "23d467b1ad7ffd4450e6d228b82c5981",
-            "url": "http://localhost:8080/servers/main-1.12.2/files/optionsshaders.txt",
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/files/optionsshaders.txt",
             "path": "optionsshaders.txt"
           }
         },
@@ -503,7 +503,7 @@
           "artifact": {
             "size": 24178996,
             "MD5": "60a3592d1dd062e8c89b11f93e2b44ed",
-            "url": "http://localhost:8080/servers/main-1.12.2/files/resourcepacks/AC_Overlay-2.2.zip",
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/files/resourcepacks/AC_Overlay-2.2.zip",
             "path": "resourcepacks/AC_Overlay-2.2.zip"
           }
         },
@@ -514,7 +514,7 @@
           "artifact": {
             "size": 85322951,
             "MD5": "54db10d1ae7fd62093e1e754fe194076",
-            "url": "http://localhost:8080/servers/main-1.12.2/files/resourcepacks/Conquest%20Reforged.zip",
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/files/resourcepacks/Conquest%20Reforged.zip",
             "path": "resourcepacks/Conquest Reforged.zip"
           }
         }
