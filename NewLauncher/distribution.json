@@ -299,13 +299,16 @@
           },
           "subModules": [
             {
-              "id": "generated.forgemod:forgelin:1.8.4@jar",
+              "id": "forgelin:1.8.4@jar",
               "name": "Shadowfacts' Forgelin",
               "type": "ForgeMod",
               "artifact": {
                 "size": 6278399,
                 "MD5": "2da79fce72265eab0541e565636d389d",
                 "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionalon/Forgelin-1.8.4.jar"
+              },
+              "required": {
+                "value": false
               }
             }
           ]
@@ -364,13 +367,17 @@
           },
           "subModules": [
             {
-              "id": "generated.forgemod:creativecore:1.10@jar",
+              "id": "creativecore:1.10@jar",
               "name": "CreativeCore",
               "type": "ForgeMod",
               "artifact": {
                 "size": 1090904,
                 "MD5": "ce9692bdbf5a16c1d48354b67fb8022e",
                 "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/CreativeCore_v1.10.16_mc1.12.2.jar"
+              },
+              "required": {
+                "value": false,
+                "def": false
               }
             }
           ]
@@ -390,13 +397,17 @@
           },
           "subModules": [
             {
-              "id": "generated.forgemod:orelib:1.12.2-3.6.0.1@jar",
+              "id": "orelib:1.12.2-3.6.0.1@jar",
               "name": "OreLib Support Mod",
               "type": "ForgeMod",
               "artifact": {
                 "size": 341728,
                 "MD5": "00cce3b240365458adcad3e77782358a",
                 "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/OreLib-1.12.2-3.6.0.1.jar"
+              },
+              "required": {
+                "value": false,
+                "def": false
               }
             }
           ]
@@ -430,7 +441,7 @@
           },
           "subModules": [
             {
-              "id": "generated.forgemod:liteloader:1.12.2-SNAPSHOT-release@jar",
+              "id": "liteloader:1.12.2-SNAPSHOT-release@jar",
               "name": "Liteloader",
               "type": "ForgeMod",
               "artifact": {
