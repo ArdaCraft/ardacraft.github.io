@@ -11,7 +11,7 @@
       "id": "main-1.12.2",
       "name": "ArdaCraft Main",
       "description": "ArdaCraft Running Minecraft 1.12.2 (Forge v14.23.5.2854) (Liteloader v1.12.2)",
-      "icon": null,
+      "icon": "https://ardacraft.github.io/NewLauncher/assets/logo.png",
       "version": "1.0.0",
       "address": "mc.ardacraft.me:25565",
       "minecraftVersion": "1.12.2",
@@ -296,7 +296,19 @@
           },
           "required": {
             "value": false
-          }
+          },
+          "subModules": [
+            {
+              "id": "generated.forgemod:forgelin:1.8.4@jar",
+              "name": "Shadowfacts' Forgelin",
+              "type": "ForgeMod",
+              "artifact": {
+                "size": 6278399,
+                "MD5": "2da79fce72265eab0541e565636d389d",
+                "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionalon/Forgelin-1.8.4.jar"
+              }
+            }
+          ]
         },
         {
           "id": "generated.forgemod:camera:1.0.0-mc1.12.2@jar",
@@ -312,26 +324,13 @@
           }
         },
         {
-          "id": "generated.forgemod:forgelin:1.8.4@jar",
-          "name": "Shadowfacts' Forgelin",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6278399,
-            "MD5": "2da79fce72265eab0541e565636d389d",
-            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionalon/Forgelin-1.8.4.jar"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:worldeditcuife2:2.2.0-mf-1.12.2-14.23.5.2768@jar",
+          "id": "generated.forgemod:worldeditcuife2:2.1.2-mf-1.12.2-14.23.5.2768@jar",
           "name": "WorldEdit CUI Forge Edition 2",
           "type": "ForgeMod",
           "artifact": {
             "size": 459294,
-            "MD5": "2b8c1c3bc48c2d80b71daa658f656edb",
-            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionalon/WorldEdit+CUI+Forge+Edition+2-2.2.0-mf-1.12.2-14.23.5.2768.jar"
+            "MD5": "c3b73126dae2412b7f2240db4073cffd",
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionalon/WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12.2-14.23.5.2768.jar"
           },
           "required": {
             "value": false
@@ -355,28 +354,26 @@
           "name": "CMDCam",
           "type": "ForgeMod",
           "artifact": {
-            "size": 78486,
-            "MD5": "35660bcbc1a0721d2da689134d29d353",
-            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/CMDCam_v1.4.7_mc1.12.2.jar"
+            "size": 83900,
+            "MD5": "c1d76f58a8b1033ef638c35308a8eb49",
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/CMDCam_v1.4.9_mc1.12.2.jar"
           },
           "required": {
             "value": false,
             "def": false
-          }
-        },
-        {
-          "id": "generated.forgemod:creativecore:1.10@jar",
-          "name": "CreativeCore",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1090904,
-            "MD5": "ce9692bdbf5a16c1d48354b67fb8022e",
-            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/CreativeCore_v1.10.16_mc1.12.2.jar"
           },
-          "required": {
-            "value": false,
-            "def": false
-          }
+          "subModules": [
+            {
+              "id": "generated.forgemod:creativecore:1.10@jar",
+              "name": "CreativeCore",
+              "type": "ForgeMod",
+              "artifact": {
+                "size": 1090904,
+                "MD5": "ce9692bdbf5a16c1d48354b67fb8022e",
+                "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/CreativeCore_v1.10.16_mc1.12.2.jar"
+              }
+            }
+          ]
         },
         {
           "id": "generated.forgemod:dsurround:1.12.2-3.6.0.2@jar",
@@ -390,21 +387,19 @@
           "required": {
             "value": false,
             "def": false
-          }
-        },
-        {
-          "id": "generated.forgemod:orelib:1.12.2-3.6.0.1@jar",
-          "name": "OreLib Support Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 341728,
-            "MD5": "00cce3b240365458adcad3e77782358a",
-            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/OreLib-1.12.2-3.6.0.1.jar"
           },
-          "required": {
-            "value": false,
-            "def": false
-          }
+          "subModules": [
+            {
+              "id": "generated.forgemod:orelib:1.12.2-3.6.0.1@jar",
+              "name": "OreLib Support Mod",
+              "type": "ForgeMod",
+              "artifact": {
+                "size": 341728,
+                "MD5": "00cce3b240365458adcad3e77782358a",
+                "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/OreLib-1.12.2-3.6.0.1.jar"
+              }
+            }
+          ]
         },
         {
           "id": "generated.forgemod:soundphysics:1.0.9@jar",
@@ -414,20 +409,6 @@
             "size": 31208,
             "MD5": "4eb92f344945e4cfe5bd25c92cb9b1de",
             "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/Sound-Physics-1.12.2-1.0.9.jar"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "generated.forgemod:liteloader:1.12.2-SNAPSHOT-release@jar",
-          "name": "Liteloader",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1680383,
-            "MD5": "1420785ecbfed5aff4a586c5c9dd97eb",
-            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/liteloader-1.12.2-SNAPSHOT-release.jar"
           },
           "required": {
             "value": false,
@@ -446,7 +427,23 @@
           "required": {
             "value": false,
             "def": false
-          }
+          },
+          "subModules": [
+            {
+              "id": "generated.forgemod:liteloader:1.12.2-SNAPSHOT-release@jar",
+              "name": "Liteloader",
+              "type": "ForgeMod",
+              "artifact": {
+                "size": 1680383,
+                "MD5": "1420785ecbfed5aff4a586c5c9dd97eb",
+                "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/liteloader-1.12.2-SNAPSHOT-release.jar"
+              },
+              "required": {
+                "value": false,
+                "def": false
+              }
+            }
+          ]
         },
         {
           "id": "generated.forgemod:quickhotbar:1.05@jar",
