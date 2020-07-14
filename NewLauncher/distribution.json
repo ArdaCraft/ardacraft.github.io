@@ -10,7 +10,7 @@
     {
       "id": "main-1.12.2",
       "name": "ArdaCraft Main",
-      "description": "ArdaCraft Running Minecraft 1.12.2 (Forge v14.23.5.2854) (Liteloader v1.12.2)",
+      "description": "ArdaCraft Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
       "icon": "https://ardacraft.github.io/NewLauncher/assets/logo.png",
       "version": "1.0.0",
       "address": "mc.ardacraft.me:25565",
@@ -299,7 +299,7 @@
           },
           "subModules": [
             {
-              "id": "forgelin:1.8.4@jar",
+              "id": "generated.forgemod:forgelin:1.8.4@jar",
               "name": "Shadowfacts' Forgelin",
               "type": "ForgeMod",
               "artifact": {
@@ -367,7 +367,7 @@
           },
           "subModules": [
             {
-              "id": "creativecore:1.10@jar",
+              "id": "generated.forgemod:creativecore:1.10@jar",
               "name": "CreativeCore",
               "type": "ForgeMod",
               "artifact": {
@@ -397,7 +397,7 @@
           },
           "subModules": [
             {
-              "id": "orelib:1.12.2-3.6.0.1@jar",
+              "id": "generated.forgemod:orelib:1.12.2-3.6.0.1@jar",
               "name": "OreLib Support Mod",
               "type": "ForgeMod",
               "artifact": {
@@ -441,7 +441,7 @@
           },
           "subModules": [
             {
-              "id": "liteloader:1.12.2-SNAPSHOT-release@jar",
+              "id": "generated.forgemod:liteloader:1.12.2-SNAPSHOT-release@jar",
               "name": "Liteloader",
               "type": "ForgeMod",
               "artifact": {
