@@ -11,7 +11,7 @@
       "id": "main-1.12.2",
       "name": "ArdaCraft Main",
       "description": "ArdaCraft Running Minecraft 1.12.2 (Forge v14.23.5.2854) (Liteloader v1.12.2)",
-      "icon": null,
+      "icon": "https://ardacraft.github.io/NewLauncher/assets/logo.png",
       "version": "1.0.0",
       "address": "mc.ardacraft.me:25565",
       "minecraftVersion": "1.12.2",
