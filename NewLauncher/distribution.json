@@ -466,13 +466,13 @@
           },
           "subModules": [
             {
-              "id": "generated.forgemod:liteloader:1.12.2-SNAPSHOT-release@jar",
+              "id": "generated.litemod:liteloader:1.12.2-SNAPSHOT-release@jar",
               "name": "Liteloader",
-              "type": "ForgeMod",
+              "type": "LiteLoader",
               "artifact": {
                 "size": 1680383,
                 "MD5": "1420785ecbfed5aff4a586c5c9dd97eb",
-                "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/liteloader-1.12.2-SNAPSHOT-release.jar"
+                "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/litemods/optionaloff/liteloader-1.12.2-SNAPSHOT-release.jar"
               },
               "required": {
                 "value": false,
