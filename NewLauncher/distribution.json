@@ -310,6 +310,17 @@
               "required": {
                 "value": false
               }
+            },
+            {
+              "id": "BetterFoliage.cfg",
+              "name": "BetterFoliage.cfg",
+              "type": "File",
+              "artifact": {
+                "size": 8119,
+                "MD5": "c3a4242b285b158488662884deb222ef",
+                "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/files/config/BetterFoliage.cfg",
+                "path": "config/BetterFoliage.cfg"
+              }
             }
           ]
         },
@@ -452,18 +463,23 @@
           "required": {
             "value": false,
             "def": false
-          }
-        },
-        {
-          "id": "BetterFoliage.cfg",
-          "name": "BetterFoliage.cfg",
-          "type": "File",
-          "artifact": {
-            "size": 8119,
-            "MD5": "c3a4242b285b158488662884deb222ef",
-            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/files/config/BetterFoliage.cfg",
-            "path": "config/BetterFoliage.cfg"
-          }
+          },
+          "subModules": [
+            {
+              "id": "generated.forgemod:liteloader:1.12.2-SNAPSHOT-release@jar",
+              "name": "Liteloader",
+              "type": "ForgeMod",
+              "artifact": {
+                "size": 1680383,
+                "MD5": "1420785ecbfed5aff4a586c5c9dd97eb",
+                "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionaloff/liteloader-1.12.2-SNAPSHOT-release.jar"
+              },
+              "required": {
+                "value": false,
+                "def": false
+              }
+            }
+          ]
         },
         {
           "id": "options.txt",

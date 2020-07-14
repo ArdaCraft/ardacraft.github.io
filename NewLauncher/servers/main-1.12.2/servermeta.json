@@ -14,5 +14,8 @@
   },
   "forge": {
     "version": "14.23.5.2854"
+  },
+  "liteloader": {
+    "version": "1.12.2"
   }
 }
