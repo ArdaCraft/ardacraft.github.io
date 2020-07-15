@@ -283,7 +283,20 @@
             "size": 1014873,
             "MD5": "e7e75c4bbca9a3ae10fa1aadc600cac5",
             "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/required/daflight-5.2.3-mc1.12.2.jar"
-          }
+          },
+          "subModules": [
+            {
+              "id": "daflight-global.json",
+              "name": "daflight-global.json",
+              "type": "File",
+              "artifact": {
+                "size": 597,
+                "MD5": "305fb3572cc64002e98f08c3b67a002f",
+                "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/files/config/daflight-global.json",
+                "path": "config/daflight-global.json"
+              }
+            }
+          ]
         },
         {
           "id": "generated.forgemod:betterfoliage:2.3.1@jar",
@@ -458,7 +471,7 @@
           "artifact": {
             "size": 1680383,
             "MD5": "1420785ecbfed5aff4a586c5c9dd97eb",
-            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/litemods/optionaloff/liteloader-1.12.2-SNAPSHOT-release.jar"
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/litemods/liteloader-1.12.2-SNAPSHOT-release.jar"
           },
           "required": {
             "value": false,
@@ -486,8 +499,8 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 3172,
-            "MD5": "62b935ac683799d0f558589f4758bcdb",
+            "size": 3592,
+            "MD5": "180756e53b9c1b84ad31d04d2e5225c7",
             "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/files/options.txt",
             "path": "options.txt"
           }
@@ -497,8 +510,8 @@
           "name": "optionsof.txt",
           "type": "File",
           "artifact": {
-            "size": 1251,
-            "MD5": "afe95e4a1bf990b52b58ceeb83d2c82a",
+            "size": 1428,
+            "MD5": "4dc7726d0cae77d5c0ac211fe766a83f",
             "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/files/optionsof.txt",
             "path": "optionsof.txt"
           }
@@ -534,6 +547,17 @@
             "MD5": "54db10d1ae7fd62093e1e754fe194076",
             "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/files/resourcepacks/Conquest%20Reforged.zip",
             "path": "resourcepacks/Conquest Reforged.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 10950,
+            "MD5": "25c1eda6598df06a65115e624645da01",
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/files/servers.dat",
+            "path": "servers.dat"
           }
         }
       ]

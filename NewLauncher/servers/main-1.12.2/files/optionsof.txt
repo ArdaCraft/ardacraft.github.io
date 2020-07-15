@@ -1,4 +1,3 @@
-ofRenderDistanceChunks:16
 ofFogType:2
 ofFogStart:0.8
 ofMipmapType:0
@@ -47,7 +46,7 @@ ofAfLevel:1
 ofProfiler:false
 ofBetterSnow:true
 ofSwampColors:true
-ofRandomMobs:true
+ofRandomEntities:true
 ofSmoothBiomes:true
 ofCustomFonts:true
 ofCustomColors:true
@@ -55,11 +54,17 @@ ofCustomItems:true
 ofCustomSky:true
 ofShowCapes:true
 ofNaturalTextures:true
+ofEmissiveTextures:true
 ofLazyChunkLoading:true
+ofRenderRegions:false
+ofSmartAnimations:false
 ofDynamicFov:true
 ofAlternateBlocks:true
 ofDynamicLights:2
+ofScreenshotSize:1
 ofCustomEntityModels:true
+ofCustomGuis:true
+ofShowGlErrors:true
 ofFullscreenMode:Default
 ofFastMath:true
 ofFastRender:false
