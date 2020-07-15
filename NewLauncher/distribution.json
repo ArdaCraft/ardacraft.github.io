@@ -299,34 +299,6 @@
           ]
         },
         {
-          "id": "generated.forgemod:betterfoliage:2.3.1@jar",
-          "name": "Better Foliage",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 937680,
-            "MD5": "fe8b72e0045c06136ca64f736090ac7a",
-            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionalon/BetterFoliage-MC1.12-2.3.1.jar"
-          },
-          "required": {
-            "value": false
-          },
-          "subModules": [
-            {
-              "id": "generated.forgemod:forgelin:1.8.4@jar",
-              "name": "Shadowfacts' Forgelin",
-              "type": "ForgeMod",
-              "artifact": {
-                "size": 6278399,
-                "MD5": "2da79fce72265eab0541e565636d389d",
-                "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/forgemods/optionalon/Forgelin-1.8.4.jar"
-              },
-              "required": {
-                "value": false
-              }
-            }
-          ]
-        },
-        {
           "id": "generated.forgemod:camera:1.0.0-mc1.12.2@jar",
           "name": "Camera",
           "type": "ForgeMod",
