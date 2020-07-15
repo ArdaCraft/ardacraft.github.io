@@ -323,17 +323,6 @@
               "required": {
                 "value": false
               }
-            },
-            {
-              "id": "BetterFoliage.cfg",
-              "name": "BetterFoliage.cfg",
-              "type": "File",
-              "artifact": {
-                "size": 8119,
-                "MD5": "c3a4242b285b158488662884deb222ef",
-                "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/files/config/BetterFoliage.cfg",
-                "path": "config/BetterFoliage.cfg"
-              }
             }
           ]
         },
