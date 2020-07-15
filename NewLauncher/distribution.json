@@ -452,7 +452,7 @@
           }
         },
         {
-          "id": "liteloader:1.12.2-SNAPSHOT-release",
+          "id": "liteloader:1.12.2-SNAPSHOT-release:1.12.2@jar",
           "name": "Liteloader (1.12.2)",
           "type": "LiteLoader",
           "artifact": {
@@ -464,7 +464,6 @@
             "value": false,
             "def": false
           },
-
           "subModules": [
             {
               "id": "generated.litemod:tabbychat:2.3.4-1.12.r2@litemod",
