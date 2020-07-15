@@ -452,13 +452,13 @@
           }
         },
         {
-          "id": "liteloader:1.12.2-SNAPSHOT-release:1.12.2@jar",
-          "name": "Liteloader (1.12.2)",
-          "type": "LiteLoader",
+          "id": "generated.litemod:tabbychat:2.3.4-1.12.r2@litemod",
+          "name": "Tabbychat",
+          "type": "LiteMod",
           "artifact": {
-            "size": 1680383,
-            "MD5": "1420785ecbfed5aff4a586c5c9dd97eb",
-            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/litemods/optionaloff/liteloader-1.12.2-SNAPSHOT-release.jar"
+            "size": 731531,
+            "MD5": "643350918c11bcc02fbcfb2732abe4b1",
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/litemods/optionaloff/mod-tabbychat-2.3.4-mc1.12.2.litemod"
           },
           "required": {
             "value": false,
@@ -466,13 +466,13 @@
           },
           "subModules": [
             {
-              "id": "generated.litemod:tabbychat:2.3.4-1.12.r2@litemod",
-              "name": "Tabbychat",
-              "type": "LiteMod",
+              "id": "liteloader:1.12.2-SNAPSHOT-release@jar",
+              "name": "Liteloader (1.12.2)",
+              "type": "LiteLoader",
               "artifact": {
-                "size": 731531,
-                "MD5": "643350918c11bcc02fbcfb2732abe4b1",
-                "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/litemods/optionaloff/mod-tabbychat-2.3.4-mc1.12.2.litemod"
+                "size": 1680383,
+                "MD5": "1420785ecbfed5aff4a586c5c9dd97eb",
+                "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/litemods/optionaloff/liteloader-1.12.2-SNAPSHOT-release.jar"
               },
               "required": {
                 "value": false,
