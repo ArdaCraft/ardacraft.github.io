@@ -283,7 +283,23 @@
             "size": 1014873,
             "MD5": "e7e75c4bbca9a3ae10fa1aadc600cac5",
             "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/daflight-5.2.3-mc1.12.2.jar"
-          }
+          },
+          "subModules": [
+            {
+              "id": "daflight-global.json",
+              "name": "daflight-global.json",
+              "type": "File",
+              "artifact": {
+                "size": 597,
+                "MD5": "305fb3572cc64002e98f08c3b67a002f",
+                "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/daflight-global.json",
+                "path": "config/daflight-global.json"
+              },
+              "required": {
+                "value": true
+              }
+            }
+          ]
         },
         {
           "id": "generated.forgemod:betterfoliage:2.3.1@jar",
@@ -378,21 +394,23 @@
           "required": {
             "value": false,
             "def": false
-          }
-        },
-        {
-          "id": "generated.forgemod:creativecore:1.10@jar",
-          "name": "CreativeCore",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1090904,
-            "MD5": "ce9692bdbf5a16c1d48354b67fb8022e",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/CreativeCore_v1.10.16_mc1.12.2.jar"
           },
-          "required": {
-            "value": false,
-            "def": false
-          }
+          "subModules": [
+            {
+              "id": "generated.forgemod:creativecore:1.10@jar",
+              "name": "CreativeCore",
+              "type": "ForgeMod",
+              "artifact": {
+                "size": 1090904,
+                "MD5": "ce9692bdbf5a16c1d48354b67fb8022e",
+                "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/CreativeCore_v1.10.16_mc1.12.2.jar"
+              },
+              "required": {
+                "value": false,
+                "def": false
+              }
+            }
+          ]
         },
         {
           "id": "generated.forgemod:dsurround:1.12.2-3.6.0.2@jar",
@@ -406,21 +424,23 @@
           "required": {
             "value": false,
             "def": false
-          }
-        },
-        {
-          "id": "generated.forgemod:orelib:1.12.2-3.6.0.1@jar",
-          "name": "OreLib Support Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 341728,
-            "MD5": "00cce3b240365458adcad3e77782358a",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/OreLib-1.12.2-3.6.0.1.jar"
           },
-          "required": {
-            "value": false,
-            "def": false
-          }
+          "subModules": [
+            {
+              "id": "generated.forgemod:orelib:1.12.2-3.6.0.1@jar",
+              "name": "OreLib Support Mod",
+              "type": "ForgeMod",
+              "artifact": {
+                "size": 341728,
+                "MD5": "00cce3b240365458adcad3e77782358a",
+                "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/OreLib-1.12.2-3.6.0.1.jar"
+              },
+              "required": {
+                "value": false,
+                "def": false
+              }
+            }
+          ]
         },
         {
           "id": "generated.forgemod:soundphysics:1.0.9@jar",
@@ -451,29 +471,34 @@
           }
         },
         {
-          "id": "generated.litemod:tabbychat:2.3.4-1.12.r2@litemod",
-          "name": "Tabbychat",
-          "type": "LiteMod",
+          "id": "liteloader:1.12.2-SNAPSHOT-release:1.12.2@jar",
+          "name": "Liteloader (1.12.2)",
+          "type": "LiteLoader",
           "artifact": {
-            "size": 731531,
-            "MD5": "643350918c11bcc02fbcfb2732abe4b1",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/litemods/optionaloff/mod-tabbychat-2.3.4-mc1.12.2.litemod"
+            "size": 1680383,
+            "MD5": "1420785ecbfed5aff4a586c5c9dd97eb",
+            "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/litemods/liteloader-1.12.2-SNAPSHOT-release.jar"
           },
           "required": {
             "value": false,
             "def": false
-          }
-        },
-        {
-          "id": "daflight-global.json",
-          "name": "daflight-global.json",
-          "type": "File",
-          "artifact": {
-            "size": 597,
-            "MD5": "305fb3572cc64002e98f08c3b67a002f",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/daflight-global.json",
-            "path": "config/daflight-global.json"
-          }
+          },
+          "subModules": [
+            {
+              "id": "generated.litemod:tabbychat:2.3.4-1.12.r2@litemod",
+              "name": "Tabbychat",
+              "type": "LiteMod",
+              "artifact": {
+                "size": 731531,
+                "MD5": "643350918c11bcc02fbcfb2732abe4b1",
+                "url": "https://ardacraft.github.io/NewLauncher/servers/main-1.12.2/litemods/optionaloff/mod-tabbychat-2.3.4-mc1.12.2.litemod"
+              },
+              "required": {
+                "value": false,
+                "def": false
+              }
+            }
+          ]
         },
         {
           "id": "options.txt",
