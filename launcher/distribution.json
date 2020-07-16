@@ -8,7 +8,7 @@
   },
   "servers": [
     {
-      "id": "main-1.12.2",
+      "id": "Main-1.12.2",
       "name": "ArdaCraft Main",
       "description": "ArdaCraft Running Minecraft 1.12.2 (Forge v14.23.5.2854) (Liteloader v1.12.2)",
       "icon": null,
@@ -242,7 +242,7 @@
           "artifact": {
             "size": 26676,
             "MD5": "c19a7111992d4ef212892adc2f677906",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/ACResourceUpdater-1.2-SNAPSHOT.jar"
+            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/forgemods/required/ACResourceUpdater-1.2-SNAPSHOT.jar"
           }
         },
         {
@@ -252,7 +252,7 @@
           "artifact": {
             "size": 60802913,
             "MD5": "4ad1a90bcbecae097b984a4ee3695929",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/ConquestReforged-3.0.2-mc1.12.2.jar"
+            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/forgemods/required/ConquestReforged-3.0.2-mc1.12.2.jar"
           }
         },
         {
@@ -262,7 +262,7 @@
           "artifact": {
             "size": 964946,
             "MD5": "07ba45ab67463150b3fdd6e51df8fd97",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/NoClip-1.2-mc1.12.2.jar"
+            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/forgemods/required/NoClip-1.2-mc1.12.2.jar"
           }
         },
         {
@@ -272,7 +272,7 @@
           "artifact": {
             "size": 2598821,
             "MD5": "043ac1db6f7441ea4cf31bcb621aff0b",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_F5.jar"
+            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_F5.jar"
           }
         },
         {
@@ -282,156 +282,7 @@
           "artifact": {
             "size": 1014873,
             "MD5": "e7e75c4bbca9a3ae10fa1aadc600cac5",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/daflight-5.2.3-mc1.12.2.jar"
-          }
-        },
-        {
-          "id": "generated.forgemod:betterfoliage:2.3.1@jar",
-          "name": "Better Foliage",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 937680,
-            "MD5": "fe8b72e0045c06136ca64f736090ac7a",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionalon/BetterFoliage-MC1.12-2.3.1.jar"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:camera:1.0.0-mc1.12.2@jar",
-          "name": "Camera",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 983830,
-            "MD5": "5491c2c0e5462dc3812e826db1d5bb07",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionalon/Camera-1.0.0-mc1.12.2.jar"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:forgelin:1.8.4@jar",
-          "name": "Shadowfacts' Forgelin",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6278399,
-            "MD5": "2da79fce72265eab0541e565636d389d",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionalon/Forgelin-1.8.4.jar"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:worldeditcuife2:2.1.2-mf-1.12.2-14.23.5.2768@jar",
-          "name": "WorldEdit CUI Forge Edition 2",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 459294,
-            "MD5": "c3b73126dae2412b7f2240db4073cffd",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionalon/WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12.2-14.23.5.2768.jar"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:journeymap:1.12.2-5.7.1@jar",
-          "name": "JourneyMap",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6990968,
-            "MD5": "8160b970fc14cff30dff2785bb9f964c",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionalon/journeymap-1.12.2-5.7.1.jar"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:cmdcam:0.0.0@jar",
-          "name": "CMDCam",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 83900,
-            "MD5": "c1d76f58a8b1033ef638c35308a8eb49",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/CMDCam_v1.4.9_mc1.12.2.jar"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "generated.forgemod:creativecore:1.10@jar",
-          "name": "CreativeCore",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1090904,
-            "MD5": "ce9692bdbf5a16c1d48354b67fb8022e",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/CreativeCore_v1.10.16_mc1.12.2.jar"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "generated.forgemod:dsurround:1.12.2-3.6.1.0@jar",
-          "name": "Dynamic Surroundings",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 15929762,
-            "MD5": "1a0d50a34941865ff091a492e0612502",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/DynamicSurroundings-1.12.2-3.6.1.0.jar"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "generated.forgemod:orelib:1.12.2-3.6.0.1@jar",
-          "name": "OreLib Support Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 341728,
-            "MD5": "00cce3b240365458adcad3e77782358a",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/OreLib-1.12.2-3.6.0.1.jar"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "generated.forgemod:soundphysics:1.0.9@jar",
-          "name": "Sound Physics",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 31208,
-            "MD5": "4eb92f344945e4cfe5bd25c92cb9b1de",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/Sound-Physics-1.12.2-1.0.9.jar"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "generated.forgemod:quickhotbar:1.05@jar",
-          "name": "Quick Hotbar",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 110248,
-            "MD5": "5703593a1879c0c428df490ec4f6b290",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/quickhotbar_1122_1.05.jar"
-          },
-          "required": {
-            "value": false,
-            "def": false
+            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/forgemods/required/daflight-5.2.3-mc1.12.2.jar"
           }
         },
         {
@@ -441,66 +292,11 @@
           "artifact": {
             "size": 731531,
             "MD5": "643350918c11bcc02fbcfb2732abe4b1",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/litemods/optionaloff/mod-tabbychat-2.3.4-mc1.12.2.litemod"
+            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/litemods/optionaloff/mod-tabbychat-2.3.4-mc1.12.2.litemod"
           },
           "required": {
             "value": false,
             "def": false
-          }
-        },
-        {
-          "id": "daflight-global.json",
-          "name": "daflight-global.json",
-          "type": "File",
-          "artifact": {
-            "size": 597,
-            "MD5": "305fb3572cc64002e98f08c3b67a002f",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/daflight-global.json",
-            "path": "config/daflight-global.json"
-          }
-        },
-        {
-          "id": "optionsshaders.txt",
-          "name": "optionsshaders.txt",
-          "type": "File",
-          "artifact": {
-            "size": 354,
-            "MD5": "23d467b1ad7ffd4450e6d228b82c5981",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/optionsshaders.txt",
-            "path": "optionsshaders.txt"
-          }
-        },
-        {
-          "id": "AC_Overlay-2.2.zip",
-          "name": "AC_Overlay-2.2.zip",
-          "type": "File",
-          "artifact": {
-            "size": 24178996,
-            "MD5": "60a3592d1dd062e8c89b11f93e2b44ed",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/resourcepacks/AC_Overlay-2.2.zip",
-            "path": "resourcepacks/AC_Overlay-2.2.zip"
-          }
-        },
-        {
-          "id": "Conquest Reforged.zip",
-          "name": "Conquest Reforged.zip",
-          "type": "File",
-          "artifact": {
-            "size": 85322951,
-            "MD5": "54db10d1ae7fd62093e1e754fe194076",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/resourcepacks/Conquest%20Reforged.zip",
-            "path": "resourcepacks/Conquest Reforged.zip"
-          }
-        },
-        {
-          "id": "servers.dat",
-          "name": "servers.dat",
-          "type": "File",
-          "artifact": {
-            "size": 10950,
-            "MD5": "25c1eda6598df06a65115e624645da01",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/servers.dat",
-            "path": "servers.dat"
           }
         }
       ]
