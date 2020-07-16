@@ -1,0 +1,29 @@
+{
+  "serverConfigs": false,
+  "flyDisplay": "fly",
+  "sprintDisplay": "sprint",
+  "boostDisplay": "+",
+  "globalConfig": {
+    "flySpeed": 5.6,
+    "sprintSpeed": 4.6,
+    "strafeModifier": 1.0,
+    "verticalModifier": 1.0,
+    "jumpModifier": 2.0,
+    "flyBoost": 2.0,
+    "sprintBoost": 2.0,
+    "fly": "F",
+    "sprint": "R",
+    "boost": "X",
+    "menu": "F9",
+    "up": "SPACE",
+    "down": "LSHIFT",
+    "flyToggle": true,
+    "sprintToggle": true,
+    "boostToggle": true,
+    "disabled": false,
+    "hud": true,
+    "speedometer": false,
+    "flight3D": false,
+    "disableFov": true
+  }
+}

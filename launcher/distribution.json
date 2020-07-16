@@ -298,6 +298,94 @@
             "value": false,
             "def": false
           }
+        },
+        {
+          "id": "BetterFoliage.cfg",
+          "name": "BetterFoliage.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 8119,
+            "MD5": "c3a4242b285b158488662884deb222ef",
+            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/config/BetterFoliage.cfg",
+            "path": "config/BetterFoliage.cfg"
+          }
+        },
+        {
+          "id": "daflight-global.json",
+          "name": "daflight-global.json",
+          "type": "File",
+          "artifact": {
+            "size": 597,
+            "MD5": "305fb3572cc64002e98f08c3b67a002f",
+            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/config/daflight-global.json",
+            "path": "config/daflight-global.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3592,
+            "MD5": "180756e53b9c1b84ad31d04d2e5225c7",
+            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "optionsof.txt",
+          "name": "optionsof.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1428,
+            "MD5": "4dc7726d0cae77d5c0ac211fe766a83f",
+            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/optionsof.txt",
+            "path": "optionsof.txt"
+          }
+        },
+        {
+          "id": "optionsshaders.txt",
+          "name": "optionsshaders.txt",
+          "type": "File",
+          "artifact": {
+            "size": 354,
+            "MD5": "23d467b1ad7ffd4450e6d228b82c5981",
+            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/optionsshaders.txt",
+            "path": "optionsshaders.txt"
+          }
+        },
+        {
+          "id": "AC_Overlay-2.2.zip",
+          "name": "AC_Overlay-2.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 24178996,
+            "MD5": "60a3592d1dd062e8c89b11f93e2b44ed",
+            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/resourcepacks/AC_Overlay-2.2.zip",
+            "path": "resourcepacks/AC_Overlay-2.2.zip"
+          }
+        },
+        {
+          "id": "Conquest Reforged.zip",
+          "name": "Conquest Reforged.zip",
+          "type": "File",
+          "artifact": {
+            "size": 85322951,
+            "MD5": "54db10d1ae7fd62093e1e754fe194076",
+            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/resourcepacks/Conquest%20Reforged.zip",
+            "path": "resourcepacks/Conquest Reforged.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 10950,
+            "MD5": "25c1eda6598df06a65115e624645da01",
+            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/servers.dat",
+            "path": "servers.dat"
+          }
         }
       ]
     }
