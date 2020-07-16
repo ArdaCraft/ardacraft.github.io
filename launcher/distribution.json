@@ -11,7 +11,7 @@
       "id": "main-1.12.2",
       "name": "ArdaCraft Main",
       "description": "ArdaCraft Running Minecraft 1.12.2 (Forge v14.23.5.2854) (Liteloader v1.12.2)",
-      "icon": null,
+      "icon": "https://ardacraft.github.io/NewLauncher/assets/logo.png",
       "version": "1.0.0",
       "address": "mc.ardacraft.me:25565",
       "minecraftVersion": "1.12.2",
@@ -283,7 +283,20 @@
             "size": 1014873,
             "MD5": "e7e75c4bbca9a3ae10fa1aadc600cac5",
             "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/daflight-5.2.3-mc1.12.2.jar"
-          }
+          },
+          "subModules": [
+            {
+              "id": "daflight-global.jdson",
+              "name": "daflight-global.json",
+              "type": "File",
+              "artifact": {
+                "size": 597,
+                "MD5": "305fb3572cc64002e98f08c3b67a002f",
+                "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/daflight-global.json",
+                "path": "config/daflight-global.json"
+              }
+            }
+          ]
         },
         {
           "id": "generated.forgemod:betterfoliage:2.3.1@jar",
@@ -457,17 +470,6 @@
             "MD5": "c3a4242b285b158488662884deb222ef",
             "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/BetterFoliage.cfg",
             "path": "config/BetterFoliage.cfg"
-          }
-        },
-        {
-          "id": "daflight-global.json",
-          "name": "daflight-global.json",
-          "type": "File",
-          "artifact": {
-            "size": 597,
-            "MD5": "305fb3572cc64002e98f08c3b67a002f",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/daflight-global.json",
-            "path": "config/daflight-global.json"
           }
         },
         {
