@@ -449,17 +449,6 @@
           }
         },
         {
-          "id": "BetterFoliage.cfg",
-          "name": "BetterFoliage.cfg",
-          "type": "File",
-          "artifact": {
-            "size": 8119,
-            "MD5": "c3a4242b285b158488662884deb222ef",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/BetterFoliage.cfg",
-            "path": "config/BetterFoliage.cfg"
-          }
-        },
-        {
           "id": "daflight-global.json",
           "name": "daflight-global.json",
           "type": "File",
@@ -468,28 +457,6 @@
             "MD5": "305fb3572cc64002e98f08c3b67a002f",
             "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/daflight-global.json",
             "path": "config/daflight-global.json"
-          }
-        },
-        {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 3592,
-            "MD5": "180756e53b9c1b84ad31d04d2e5225c7",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/options.txt",
-            "path": "options.txt"
-          }
-        },
-        {
-          "id": "optionsof.txt",
-          "name": "optionsof.txt",
-          "type": "File",
-          "artifact": {
-            "size": 1428,
-            "MD5": "4dc7726d0cae77d5c0ac211fe766a83f",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/optionsof.txt",
-            "path": "optionsof.txt"
           }
         },
         {
