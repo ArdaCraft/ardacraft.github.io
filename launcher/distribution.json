@@ -379,13 +379,13 @@
           }
         },
         {
-          "id": "generated.forgemod:dsurround:1.12.2-3.6.1.0@jar",
+          "id": "generated.forgemod:dsurround:1.12.2-3.6.0.2@jar",
           "name": "Dynamic Surroundings",
           "type": "ForgeMod",
           "artifact": {
-            "size": 15929762,
-            "MD5": "1a0d50a34941865ff091a492e0612502",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/DynamicSurroundings-1.12.2-3.6.1.0.jar"
+            "size": 16014866,
+            "MD5": "b587a5c7a4791894a3531577e4bbec81",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/DynamicSurroundings-1.12.2-3.6.0.2.jar"
           },
           "required": {
             "value": false,
