@@ -8,7 +8,7 @@
   },
   "servers": [
     {
-      "id": "Main-1.12.2",
+      "id": "main-1.12.2",
       "name": "ArdaCraft Main",
       "description": "ArdaCraft Running Minecraft 1.12.2 (Forge v14.23.5.2854) (Liteloader v1.12.2)",
       "icon": null,
@@ -242,7 +242,7 @@
           "artifact": {
             "size": 26676,
             "MD5": "c19a7111992d4ef212892adc2f677906",
-            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/forgemods/required/ACResourceUpdater-1.2-SNAPSHOT.jar"
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/ACResourceUpdater-1.2-SNAPSHOT.jar"
           }
         },
         {
@@ -252,7 +252,7 @@
           "artifact": {
             "size": 60802913,
             "MD5": "4ad1a90bcbecae097b984a4ee3695929",
-            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/forgemods/required/ConquestReforged-3.0.2-mc1.12.2.jar"
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/ConquestReforged-3.0.2-mc1.12.2.jar"
           }
         },
         {
@@ -262,7 +262,7 @@
           "artifact": {
             "size": 964946,
             "MD5": "07ba45ab67463150b3fdd6e51df8fd97",
-            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/forgemods/required/NoClip-1.2-mc1.12.2.jar"
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/NoClip-1.2-mc1.12.2.jar"
           }
         },
         {
@@ -272,7 +272,7 @@
           "artifact": {
             "size": 2598821,
             "MD5": "043ac1db6f7441ea4cf31bcb621aff0b",
-            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_F5.jar"
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_F5.jar"
           }
         },
         {
@@ -282,7 +282,7 @@
           "artifact": {
             "size": 1014873,
             "MD5": "e7e75c4bbca9a3ae10fa1aadc600cac5",
-            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/forgemods/required/daflight-5.2.3-mc1.12.2.jar"
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/daflight-5.2.3-mc1.12.2.jar"
           }
         },
         {
@@ -292,7 +292,7 @@
           "artifact": {
             "size": 731531,
             "MD5": "643350918c11bcc02fbcfb2732abe4b1",
-            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/litemods/optionaloff/mod-tabbychat-2.3.4-mc1.12.2.litemod"
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/litemods/optionaloff/mod-tabbychat-2.3.4-mc1.12.2.litemod"
           },
           "required": {
             "value": false,
@@ -306,7 +306,7 @@
           "artifact": {
             "size": 8119,
             "MD5": "c3a4242b285b158488662884deb222ef",
-            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/config/BetterFoliage.cfg",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/BetterFoliage.cfg",
             "path": "config/BetterFoliage.cfg"
           }
         },
@@ -317,7 +317,7 @@
           "artifact": {
             "size": 597,
             "MD5": "305fb3572cc64002e98f08c3b67a002f",
-            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/config/daflight-global.json",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/daflight-global.json",
             "path": "config/daflight-global.json"
           }
         },
@@ -328,7 +328,7 @@
           "artifact": {
             "size": 3592,
             "MD5": "180756e53b9c1b84ad31d04d2e5225c7",
-            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/options.txt",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/options.txt",
             "path": "options.txt"
           }
         },
@@ -339,7 +339,7 @@
           "artifact": {
             "size": 1428,
             "MD5": "4dc7726d0cae77d5c0ac211fe766a83f",
-            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/optionsof.txt",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/optionsof.txt",
             "path": "optionsof.txt"
           }
         },
@@ -350,7 +350,7 @@
           "artifact": {
             "size": 354,
             "MD5": "23d467b1ad7ffd4450e6d228b82c5981",
-            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/optionsshaders.txt",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/optionsshaders.txt",
             "path": "optionsshaders.txt"
           }
         },
@@ -361,7 +361,7 @@
           "artifact": {
             "size": 24178996,
             "MD5": "60a3592d1dd062e8c89b11f93e2b44ed",
-            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/resourcepacks/AC_Overlay-2.2.zip",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/resourcepacks/AC_Overlay-2.2.zip",
             "path": "resourcepacks/AC_Overlay-2.2.zip"
           }
         },
@@ -372,7 +372,7 @@
           "artifact": {
             "size": 85322951,
             "MD5": "54db10d1ae7fd62093e1e754fe194076",
-            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/resourcepacks/Conquest%20Reforged.zip",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/resourcepacks/Conquest%20Reforged.zip",
             "path": "resourcepacks/Conquest Reforged.zip"
           }
         },
@@ -383,7 +383,7 @@
           "artifact": {
             "size": 10950,
             "MD5": "25c1eda6598df06a65115e624645da01",
-            "url": "https://ardacraft.github.io/launcher/servers/Main-1.12.2/files/servers.dat",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/servers.dat",
             "path": "servers.dat"
           }
         }
