@@ -286,6 +286,155 @@
           }
         },
         {
+          "id": "generated.forgemod:betterfoliage:2.3.1@jar",
+          "name": "Better Foliage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 937680,
+            "MD5": "fe8b72e0045c06136ca64f736090ac7a",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionalon/BetterFoliage-MC1.12-2.3.1.jar"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:camera:1.0.0-mc1.12.2@jar",
+          "name": "Camera",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 983830,
+            "MD5": "5491c2c0e5462dc3812e826db1d5bb07",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionalon/Camera-1.0.0-mc1.12.2.jar"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:forgelin:1.8.4@jar",
+          "name": "Shadowfacts' Forgelin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6278399,
+            "MD5": "2da79fce72265eab0541e565636d389d",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionalon/Forgelin-1.8.4.jar"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:worldeditcuife2:2.1.2-mf-1.12.2-14.23.5.2768@jar",
+          "name": "WorldEdit CUI Forge Edition 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 459294,
+            "MD5": "c3b73126dae2412b7f2240db4073cffd",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionalon/WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12.2-14.23.5.2768.jar"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:journeymap:1.12.2-5.7.1@jar",
+          "name": "JourneyMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6990968,
+            "MD5": "8160b970fc14cff30dff2785bb9f964c",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionalon/journeymap-1.12.2-5.7.1.jar"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:cmdcam:0.0.0@jar",
+          "name": "CMDCam",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 83900,
+            "MD5": "c1d76f58a8b1033ef638c35308a8eb49",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/CMDCam_v1.4.9_mc1.12.2.jar"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:creativecore:1.10@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1090904,
+            "MD5": "ce9692bdbf5a16c1d48354b67fb8022e",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/CreativeCore_v1.10.16_mc1.12.2.jar"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:dsurround:1.12.2-3.6.1.0@jar",
+          "name": "Dynamic Surroundings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15929762,
+            "MD5": "1a0d50a34941865ff091a492e0612502",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/DynamicSurroundings-1.12.2-3.6.1.0.jar"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:orelib:1.12.2-3.6.0.1@jar",
+          "name": "OreLib Support Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 341728,
+            "MD5": "00cce3b240365458adcad3e77782358a",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/OreLib-1.12.2-3.6.0.1.jar"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:soundphysics:1.0.9@jar",
+          "name": "Sound Physics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31208,
+            "MD5": "4eb92f344945e4cfe5bd25c92cb9b1de",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/Sound-Physics-1.12.2-1.0.9.jar"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:quickhotbar:1.05@jar",
+          "name": "Quick Hotbar",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 110248,
+            "MD5": "5703593a1879c0c428df490ec4f6b290",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/quickhotbar_1122_1.05.jar"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "generated.litemod:tabbychat:2.3.4-1.12.r2@litemod",
           "name": "Tabbychat",
           "type": "LiteMod",
