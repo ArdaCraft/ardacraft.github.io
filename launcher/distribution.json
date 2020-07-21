@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://forums.ardacraft.me/c/announcements.rss",
+  "rss": "https://forums.ardacraft.me/c/announcements/5.rss",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
