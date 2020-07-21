@@ -490,7 +490,6 @@
           "type": "File",
           "artifact": {
             "size": 597,
-            "MD5": "305fb3572cc64002e98f08c3b67a002f",
             "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/daflight-global.json",
             "path": "config/daflight-global.json"
           }
@@ -501,7 +500,6 @@
           "type": "File",
           "artifact": {
             "size": 3592,
-            "MD5": "180756e53b9c1b84ad31d04d2e5225c7",
             "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/options.txt",
             "path": "options.txt"
           }
@@ -512,7 +510,6 @@
           "type": "File",
           "artifact": {
             "size": 1428,
-            "MD5": "4dc7726d0cae77d5c0ac211fe766a83f",
             "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/optionsof.txt",
             "path": "optionsof.txt"
           }
@@ -523,7 +520,6 @@
           "type": "File",
           "artifact": {
             "size": 354,
-            "MD5": "23d467b1ad7ffd4450e6d228b82c5981",
             "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/optionsshaders.txt",
             "path": "optionsshaders.txt"
           }
