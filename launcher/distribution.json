@@ -525,14 +525,14 @@
           }
         },
         {
-          "id": "AC_Overlay-2.2.zip",
-          "name": "AC_Overlay-2.2.zip",
+          "id": "AC_Overlay-2.3.zip",
+          "name": "AC_Overlay-2.3.zip",
           "type": "File",
           "artifact": {
-            "size": 24178996,
-            "MD5": "60a3592d1dd062e8c89b11f93e2b44ed",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/resourcepacks/AC_Overlay-2.2.zip",
-            "path": "resourcepacks/AC_Overlay-2.2.zip"
+            "size": 27806359,
+            "MD5": "bb6bfd8bbbb13072bfb3d0e24689c111",
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/resourcepacks/AC_Overlay-2.3.zip",
+            "path": "resourcepacks/AC_Overlay-2.3.zip"
           }
         },
         {
