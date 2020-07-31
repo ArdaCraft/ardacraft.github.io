@@ -485,16 +485,6 @@
           ]
         },
         {
-          "id": "daflight-global.json",
-          "name": "daflight-global.json",
-          "type": "File",
-          "artifact": {
-            "size": 597,
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/daflight-global.json",
-            "path": "config/daflight-global.json"
-          }
-        },
-        {
           "id": "options.txt",
           "name": "options.txt",
           "type": "File",
