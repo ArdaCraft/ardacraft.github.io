@@ -6,9 +6,9 @@
     "address": "mc.ardacraft.me:25565",
     "icon": "https://ardacraft.github.io/launcher/assets/logo.png",
     "discord": {
-      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "shortId": "Main",
+      "largeImageText": "ArdaCraft Server",
+      "largeImageKey": "server-main"
     },
     "mainServer": true,
     "autoconnect": true

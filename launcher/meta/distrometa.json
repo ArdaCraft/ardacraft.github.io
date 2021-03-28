@@ -1,10 +1,10 @@
 {
   "meta": {
-    "rss": "<LINK TO RSS FEED>",
+    "rss": "https://forums.ardacraft.me/c/announcements/5.rss",
     "discord": {
-      "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "clientId": "734960858504888431",
+      "smallImageText": "ArdaCraft",
+      "smallImageKey": "seal-circle"
     }
   }
 }
