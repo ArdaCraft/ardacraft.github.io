@@ -252,7 +252,7 @@
           "artifact": {
             "size": 60802913,
             "MD5": "4ad1a90bcbecae097b984a4ee3695929",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/ConquestReforged-3.0.2-mc1.12.2.jar"
+            "url": "https://edge.forgecdn.net/files/2565/963/ConquestReforged-3.0.2-mc1.12.2.jar"
           }
         },
         {
@@ -292,7 +292,7 @@
           "artifact": {
             "size": 937680,
             "MD5": "fe8b72e0045c06136ca64f736090ac7a",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionalon/BetterFoliage-MC1.12-2.3.1.jar"
+            "url": "https://edge.forgecdn.net/files/2852/872/BetterFoliage-MC1.12-2.3.1.jar"
           },
           "required": {
             "value": false
@@ -305,7 +305,7 @@
               "artifact": {
                 "size": 6278399,
                 "MD5": "2da79fce72265eab0541e565636d389d",
-                "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionalon/Forgelin-1.8.4.jar"
+                "url": "https://edge.forgecdn.net/files/2785/465/Forgelin-1.8.4.jar"
               },
               "required": {
                 "value": false
@@ -347,7 +347,7 @@
           "artifact": {
             "size": 459294,
             "MD5": "c3b73126dae2412b7f2240db4073cffd",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionalon/WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12.2-14.23.5.2768.jar"
+            "url": "https://edge.forgecdn.net/files/2629/418/WorldEdit CUI Forge Edition 2-2.2.0-mf-1.12.2-14.23.5.2768.jar"
           },
           "required": {
             "value": false
@@ -360,7 +360,7 @@
           "artifact": {
             "size": 6990968,
             "MD5": "8160b970fc14cff30dff2785bb9f964c",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionalon/journeymap-1.12.2-5.7.1.jar"
+            "url": "https://edge.forgecdn.net/files/2916/2/journeymap-1.12.2-5.7.1.jar"
           },
           "required": {
             "value": false
@@ -373,7 +373,7 @@
           "artifact": {
             "size": 83900,
             "MD5": "c1d76f58a8b1033ef638c35308a8eb49",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/CMDCam_v1.4.9_mc1.12.2.jar"
+            "url": "https://edge.forgecdn.net/files/2967/352/CMDCam_v1.4.9_mc1.12.2.jar"
           },
           "required": {
             "value": false,
@@ -387,7 +387,7 @@
               "artifact": {
                 "size": 1090904,
                 "MD5": "ce9692bdbf5a16c1d48354b67fb8022e",
-                "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/CreativeCore_v1.10.16_mc1.12.2.jar"
+                "url": "https://edge.forgecdn.net/files/2968/171/CreativeCore_v1.10.16_mc1.12.2.jar"
               },
               "required": {
                 "value": false,
@@ -403,7 +403,7 @@
           "artifact": {
             "size": 16014866,
             "MD5": "b587a5c7a4791894a3531577e4bbec81",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/DynamicSurroundings-1.12.2-3.6.0.2.jar"
+            "url": "https://edge.forgecdn.net/files/2825/354/DynamicSurroundings-1.12.2-3.6.0.2.jar"
           },
           "required": {
             "value": false,
@@ -417,7 +417,7 @@
               "artifact": {
                 "size": 341728,
                 "MD5": "00cce3b240365458adcad3e77782358a",
-                "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/OreLib-1.12.2-3.6.0.1.jar"
+                "url": "https://edge.forgecdn.net/files/2820/815/OreLib-1.12.2-3.6.0.1.jar"
               },
               "required": {
                 "value": false,
@@ -447,7 +447,7 @@
           "artifact": {
             "size": 110248,
             "MD5": "5703593a1879c0c428df490ec4f6b290",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/quickhotbar_1122_1.05.jar"
+            "url": "https://edge.forgecdn.net/files/2654/800/quickhotbar_1122_1.05.jar"
           },
           "required": {
             "value": false,
@@ -532,7 +532,7 @@
           "artifact": {
             "size": 85322951,
             "MD5": "54db10d1ae7fd62093e1e754fe194076",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/resourcepacks/Conquest%20Reforged.zip",
+            "url": "https://edge.forgecdn.net/files/2565/964/Conquest Reforged.zip",
             "path": "resourcepacks/Conquest Reforged.zip"
           }
         },
