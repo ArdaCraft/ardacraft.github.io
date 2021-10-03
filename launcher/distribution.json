@@ -551,8 +551,8 @@
     },
     {
       "id": "beta-1.15.2",
-      "name": "ConquestReforged (Minecraft 1.15.2)",
-      "description": "ArdaCraft Beta",
+      "name": "ArdaCraft Beta",
+      "description": "ArdaCraft Running Minecraft 1.15.2 (Forge v31.2.50)",
       "icon": "https://ardacraft.github.io/launcher/assets/logo.png",
       "version": "1.0.0",
       "address": "beta.ardacraft.me",
