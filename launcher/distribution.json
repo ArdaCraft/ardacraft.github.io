@@ -555,7 +555,7 @@
       "description": "ArdaCraft Beta",
       "icon": "https://ardacraft.github.io/launcher/assets/logo.png",
       "version": "1.0.0",
-      "address": "mc.ardacraft.me",
+      "address": "beta.ardacraft.me",
       "minecraftVersion": "1.15.2",
       "discord": {
         "shortId": "Main",
