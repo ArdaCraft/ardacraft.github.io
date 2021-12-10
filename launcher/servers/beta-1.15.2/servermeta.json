@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "name": "ArdaCraft Beta",
-    "description": "ArdaCraft Running Minecraft 1.15.2 (Forge v31.2.50)",
+    "description": "ArdaCraft Running Minecraft 1.15.2 (Forge v31.2.56)",
     "address": "mc.ardacraft.me",
 	"icon": "https://ardacraft.github.io/launcher/assets/logo.png",
     "discord": {
@@ -15,7 +15,7 @@
     "autoconnect": false
   },
   "forge": {
-    "version": "31.2.50"
+    "version": "31.2.56"
   },
   "untrackedFiles": []
 }

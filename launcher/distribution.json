@@ -10,7 +10,7 @@
     {
       "id": "main-1.12.2",
       "name": "ArdaCraft Main",
-      "description": "ArdaCraft Running Minecraft 1.12.2 (Forge v14.23.5.2854) (Liteloader v1.12.2)",
+      "description": "ArdaCraft Running Minecraft 1.12.2 (Forge v14.23.5.2857) (Liteloader v1.12.2)",
       "icon": "https://ardacraft.github.io/launcher/assets/logo.png",
       "version": "1.0.0",
       "address": "mc.ardacraft.me",
@@ -24,23 +24,23 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2854:universal",
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2857:universal",
           "name": "Minecraft Forge",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 4464068,
-            "MD5": "ff6f0650ff84d4c8e03da9a4f536d9e1",
-            "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar"
+            "size": 4465918,
+            "MD5": "a7f379bb6a860348eec763435ba942d8",
+            "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2857/forge-1.12.2-14.23.5.2857-universal.jar"
           },
           "subModules": [
             {
-              "id": "1.12.2-14.23.5.2854",
+              "id": "1.12.2-14.23.5.2857",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 10873,
-                "MD5": "814f52398b6ebf70d22571307d2298eb",
-                "url": "https://ardacraft.github.io/launcher/repo/versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.json"
+                "size": 12447,
+                "MD5": "9f7c903fd6cdb5dd730f7b566c11ea6e",
+                "url": "https://ardacraft.github.io/launcher/repo/versions/1.12.2-forge-14.23.5.2857/1.12.2-forge-14.23.5.2857.json"
               }
             },
             {
@@ -231,6 +231,36 @@
                 "size": 78175,
                 "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
                 "url": "https://ardacraft.github.io/launcher/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
               }
             }
           ]
@@ -552,7 +582,7 @@
     {
       "id": "beta-1.15.2",
       "name": "ArdaCraft Beta",
-      "description": "ArdaCraft Running Minecraft 1.15.2 (Forge v31.2.50)",
+      "description": "ArdaCraft Running Minecraft 1.15.2 (Forge v31.2.56)",
       "icon": "https://ardacraft.github.io/launcher/assets/logo.png",
       "version": "1.0.0",
       "address": "beta.ardacraft.me",
@@ -566,44 +596,44 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.15.2-31.2.50",
+          "id": "net.minecraftforge:forge:1.15.2-31.2.56",
           "name": "Minecraft Forge (base jar)",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 194675,
-            "MD5": "f07da91c5a08199ffa508cc070d5c316",
-            "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.15.2-31.2.50/forge-1.15.2-31.2.50.jar"
+            "size": 194695,
+            "MD5": "e260f3c029870f5c3e3dca3ec3960d70",
+            "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.15.2-31.2.56/forge-1.15.2-31.2.56.jar"
           },
           "subModules": [
             {
-              "id": "1.15.2-31.2.50",
+              "id": "1.15.2-31.2.56",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 11933,
-                "MD5": "5d15e545d125ca4d89062d9c904303d3",
-                "url": "https://ardacraft.github.io/launcher/repo/versions/1.15.2-forge-31.2.50/1.15.2-forge-31.2.50.json"
+                "size": 12478,
+                "MD5": "f4f951b9993c317c1392ad1cc412a2e7",
+                "url": "https://ardacraft.github.io/launcher/repo/versions/1.15.2-forge-31.2.56/1.15.2-forge-31.2.56.json"
               }
             },
             {
-              "id": "net.minecraftforge:forge:1.15.2-31.2.50:universal",
+              "id": "net.minecraftforge:forge:1.15.2-31.2.56:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "artifact": {
-                "size": 2253178,
-                "MD5": "174fee2a6a7cff286ab7768fc0119eb9",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.15.2-31.2.50/forge-1.15.2-31.2.50-universal.jar"
+                "size": 2262802,
+                "MD5": "d275c044b877df1ecce68d0ac8eea19f",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.15.2-31.2.56/forge-1.15.2-31.2.56-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.15.2-31.2.50:client",
+              "id": "net.minecraftforge:forge:1.15.2-31.2.56:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "artifact": {
-                "size": 3689139,
-                "MD5": "ad10214aea4568890c3daaac331d5dcf",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.15.2-31.2.50/forge-1.15.2-31.2.50-client.jar"
+                "size": 3691606,
+                "MD5": "7f51f35b608b8cd9e7641aacd9641b48",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.15.2-31.2.56/forge-1.15.2-31.2.56-client.jar"
               },
               "subModules": []
             },
@@ -613,7 +643,7 @@
               "type": "Library",
               "artifact": {
                 "size": 10344805,
-                "MD5": "24a03b210697ef95deacf77481cca74f",
+                "MD5": "0f246b4297eb6c4b042d3b436e2f3cae",
                 "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraft/client/1.15.2-20200515.085601/client-1.15.2-20200515.085601-srg.jar"
               },
               "subModules": []
@@ -701,13 +731,13 @@
               }
             },
             {
-              "id": "cpw.mods:grossjava9hacks:1.3.0",
+              "id": "cpw.mods:grossjava9hacks:1.3.3",
               "name": "Minecraft Forge (grossjava9hacks)",
               "type": "Library",
               "artifact": {
-                "size": 1921,
-                "MD5": "c5c05d52fcef5479e0ea069f30c6ceb5",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/cpw/mods/grossjava9hacks/1.3.0/grossjava9hacks-1.3.0.jar"
+                "size": 2113,
+                "MD5": "d19b487241008d8e6111137a289ea1d7",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
               }
             },
             {
@@ -821,23 +851,33 @@
               }
             },
             {
-              "id": "org.apache.logging.log4j:log4j-api:2.11.2",
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
               "name": "Minecraft Forge (log4j-api)",
               "type": "Library",
               "artifact": {
-                "size": 266283,
-                "MD5": "3f7ee51e3dd0830de799dae0b90243dd",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar"
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
               }
             },
             {
-              "id": "org.apache.logging.log4j:log4j-core:2.11.2",
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
               "name": "Minecraft Forge (log4j-core)",
               "type": "Library",
               "artifact": {
-                "size": 1629585,
-                "MD5": "c8bd8b5c5aaaa07a3dcbf57de01c9266",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar"
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
               }
             },
             {
