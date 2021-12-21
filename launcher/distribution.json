@@ -903,13 +903,13 @@
           ]
         },
         {
-          "id": "generated.forgemod:conquest:4.1.0@jar",
+          "id": "generated.forgemod:conquest:4.1.1@jar",
           "name": "ConquestReforged",
           "type": "ForgeMod",
           "artifact": {
-            "size": 90032897,
-            "url": "https://edge.forgecdn.net/files/3476/502/ConquestReforged-mc1.15.2-4.1.0.jar",
-            "MD5": "1f14a011dc53e8a381f9ddbd67664ff4"
+            "size": 90105396,
+            "url": "https://edge.forgecdn.net/files/3571/299/ConquestReforged-mc1.15.2-4.1.1.jar",
+            "MD5": "67039262e6d67db92ef98dbafc3c67d6"
           }
         },
         {
