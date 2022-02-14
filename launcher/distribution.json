@@ -1178,11 +1178,11 @@
     },
     {
       "id": "beta-1.16.5",
-      "name": "1.16.5 (Minecraft 1.16.5)",
-      "description": "1.16.5 Running Minecraft 1.16.5 (Forge v36.2.27)",
+      "name": "ArdaCraft Beta (Minecraft 1.16.5)",
+      "description": "ArdaCraft Running Minecraft 1.16.5 (Forge v36.2.27)",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "beta.ardacraft.me",
       "minecraftVersion": "1.16.5",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
