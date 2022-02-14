@@ -1588,7 +1588,7 @@
           "name": "OptiFine",
           "type": "ForgeMod",
           "artifact": {
-            "size": 6046996,
+            "size": 5520538,
             "url": "https://ardacraft.github.io/launcher/servers/beta-1.16.5/forgemods/required/OptiFine_1.16.5_HD_U_G8_MOD.jar",
             "MD5": "01f77db7ec4381a0f6591e4ed5335ba8"
           }
