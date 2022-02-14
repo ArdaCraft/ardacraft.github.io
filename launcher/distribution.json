@@ -1589,7 +1589,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 6046996,
-            "url": "https://optifine.net/downloadx?f=OptiFine_1.16.5_HD_U_G8.jar&x=c4947edc08c7b3629b878e5b6c71508b",
+            "url": "https://ardacraft.github.io/launcher/servers/beta-1.16.5/forgemods/required/OptiFine_1.16.5_HD_U_G8.jar",
             "MD5": "e0717ba6d1674af83036ebc479fc77b4"
           }
         },
@@ -1612,7 +1612,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5312767,
-            "url": "https://media.forgecdn.net/files/3646/300/CRRP-1.16.5-5.0.7.zip",
+            "url": "https://media.forgecdn.net/files/3283/693/worldedit-mod-7.2.5-dist.jar",
             "MD5": "96ff53c70d4a3ff9df5592462b0f0685"
           },
           "required": {
