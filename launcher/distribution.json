@@ -1519,6 +1519,16 @@
           ]
         },
         {
+          "id": "generated.library:OptiFine_1.16.5_HD_U_G8:0.0.0@jar",
+          "name": "OptiFine_1.16.5_HD_U_G8",
+          "type": "Library",
+          "artifact": {
+            "size": 6046996,
+            "url": "https://ardacraft.github.io/launcher/servers/beta-1.16.5/libraries/OptiFine_1.16.5_HD_U_G8.jar",
+            "MD5": "e0717ba6d1674af83036ebc479fc77b4"
+          }
+        },
+        {
           "id": "com.conquestreforged:conquest:5.0.7@jar",
           "name": "ConquestReforged",
           "type": "ForgeMod",
@@ -1555,16 +1565,6 @@
           }
         },
         {
-          "id": "net.optifine:optifine:1.16.5_HD_U_G8@jar",
-          "name": "OptiFine",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6046996,
-            "url": "https://ardacraft.github.io/launcher/servers/beta-1.16.5/forgemods/required/OptiFine_1.16.5_HD_U_G8.jar",
-            "MD5": "e0717ba6d1674af83036ebc479fc77b4"
-          }
-        },
-        {
           "id": "com.github.hexomod:worldeditcuife3:3.0.9@jar",
           "name": "WorldEdit CUI Forge Edition 3",
           "type": "ForgeMod",
@@ -1589,6 +1589,34 @@
           "required": {
             "value": false
           }
+        },
+        {
+          "id": "team.creative:cmdcam:1.5.0@jar",
+          "name": "CMDCam",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 82251,
+            "url": "https://media.forgecdn.net/files/3533/801/CMDCam_v1.5.24_mc1.16.5.jar",
+            "MD5": "cbb97809f3e19c7638bc29875dcc4b5b"
+          },
+          "required": {
+            "value": false
+          },
+          "subModules": [
+            {
+              "id": "team.creative:creativecore:2.0.0@jar",
+              "name": "CreativeCore",
+              "type": "ForgeMod",
+              "artifact": {
+                "size": 631207,
+                "url": "https://media.forgecdn.net/files/3419/983/CreativeCore_v2.2.1_mc1.16.5.jar",
+                "MD5": "c32d3e1df267d820eb2b1b8e8adb75e1"
+              },
+              "required": {
+                "value": false
+              }
+            }
+          ]
         },
         {
           "id": "CRRP-1.16.5-5.0.7.zip",
