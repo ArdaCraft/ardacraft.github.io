@@ -13,7 +13,7 @@
       "description": "ArdaCraft Running Minecraft 1.12.2 (Forge v14.23.5.2857) (Liteloader v1.12.2)",
       "icon": "https://ardacraft.github.io/launcher/assets/logo.png",
       "version": "1.0.0",
-      "address": "mc.ardacraft.me",
+      "address": "mc.ardacraft.me:25565",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "Main",
@@ -1178,7 +1178,7 @@
     {
       "id": "beta-1.16.5",
       "name": "ArdaCraft Beta (Minecraft 1.16.5)",
-      "description": "ArdaCraft Running Minecraft 1.16.5 (Forge v36.2.27)",
+      "description": "ArdaCraft Running Minecraft 1.16.5 (Forge v36.2.28)",
       "icon": null,
       "version": "1.0.0",
       "address": "beta.ardacraft.me",
@@ -1192,44 +1192,44 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.20",
+          "id": "net.minecraftforge:forge:1.16.5-36.2.28",
           "name": "Minecraft Forge (base jar)",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 212295,
-            "MD5": "76b8b32bf2281884f75bd73285b4093a",
-            "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20.jar"
+            "size": 212291,
+            "MD5": "2508c281aa0f73e01322acc8cebdaf97",
+            "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.16.5-36.2.28/forge-1.16.5-36.2.28.jar"
           },
           "subModules": [
             {
-              "id": "1.16.5-36.2.20",
+              "id": "1.16.5-36.2.28",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 13580,
-                "MD5": "23e57303e3b20d096c5fdd163d0e793b",
-                "url": "https://ardacraft.github.io/launcher/repo/versions/1.16.5-forge-36.2.20/1.16.5-forge-36.2.20.json"
+                "size": 13577,
+                "MD5": "65399b0baeae34b62c63ca38f0c96a5f",
+                "url": "https://ardacraft.github.io/launcher/repo/versions/1.16.5-forge-36.2.28/1.16.5-forge-36.2.28.json"
               }
             },
             {
-              "id": "net.minecraftforge:forge:1.16.5-36.2.20:universal",
+              "id": "net.minecraftforge:forge:1.16.5-36.2.28:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "artifact": {
-                "size": 2479338,
-                "MD5": "5ab9a9314c184c502e20cf90e099e5a4",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20-universal.jar"
+                "size": 2756381,
+                "MD5": "df6e9833c7fc2c9b6429158c28fe811e",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.16.5-36.2.28/forge-1.16.5-36.2.28-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.16.5-36.2.20:client",
+              "id": "net.minecraftforge:forge:1.16.5-36.2.28:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "artifact": {
-                "size": 4213639,
-                "MD5": "341e112079f9577d1c9daaea82c19eaf",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.16.5-36.2.20/forge-1.16.5-36.2.20-client.jar"
+                "size": 4214066,
+                "MD5": "1100538e811363e899b3c1c8afa99391",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.16.5-36.2.28/forge-1.16.5-36.2.28-client.jar"
               },
               "subModules": []
             },
@@ -1239,7 +1239,7 @@
               "type": "Library",
               "artifact": {
                 "size": 11352644,
-                "MD5": "9b90f77e0706603ba2427de89a1912a7",
+                "MD5": "809b08d5a785f3ef0da24d201400db1a",
                 "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
               },
               "subModules": []
@@ -1317,13 +1317,13 @@
               }
             },
             {
-              "id": "cpw.mods:modlauncher:8.0.9",
+              "id": "cpw.mods:modlauncher:8.1.3",
               "name": "Minecraft Forge (modlauncher)",
               "type": "Library",
               "artifact": {
-                "size": 126196,
-                "MD5": "dae78c82a7ca7599ae6a10938cd22d58",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/cpw/mods/modlauncher/8.0.9/modlauncher-8.0.9.jar"
+                "size": 126747,
+                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
               }
             },
             {
@@ -1514,34 +1514,6 @@
                 "size": 2194057,
                 "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
                 "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "team.creative:cmdcam:1.5.0@jar",
-          "name": "CMDCam",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 82251,
-            "url": "https://media.forgecdn.net/files/3533/801/CMDCam_v1.5.24_mc1.16.5.jar",
-            "MD5": "cbb97809f3e19c7638bc29875dcc4b5b"
-          },
-          "required": {
-            "value": false
-          },
-          "subModules": [
-            {
-              "id": "team.creative:creativecore:2.0.0@jar",
-              "name": "CreativeCore",
-              "type": "ForgeMod",
-              "artifact": {
-                "size": 631207,
-                "url": "https://media.forgecdn.net/files/3419/983/CreativeCore_v2.2.1_mc1.16.5.jar",
-                "MD5": "c32d3e1df267d820eb2b1b8e8adb75e1"
-              },
-              "required": {
-                "value": false
               }
             }
           ]
