@@ -913,8 +913,8 @@
           }
         },
 	{
-          "id": "Ma-Essentials-1.15.2-3.1.1.jar",
-          "name": "Ma-Essentials-1.15.2-3.1.1.jar",
+          "id": "generated.forgemod:maessentials:3.1.1@jar",
+          "name": "Ma-Essentials",
           "type": "ForgeMod",
           "artifact": {
             "size": 241877,
