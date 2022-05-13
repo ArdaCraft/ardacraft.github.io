@@ -912,6 +912,16 @@
             "MD5": "67039262e6d67db92ef98dbafc3c67d6"
           }
         },
+	{
+          "id": "generated.forgemod:maessentials:3.1.1@jar",
+          "name": "Ma-Essentials",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 241877,
+            "url": "https://ardacraft.github.io/launcher/servers/beta-1.15.2/forgemods/required/Ma-Essentials-1.15.2-3.1.1.jar",
+            "MD5": "52fb3119e497021096ee2ff2345d94f6"
+          }
+	},
         {
           "id": "generated.forgemod:environs:1.15.2-1.0.0.0@jar",
           "name": "§3Dynamic Surroundings: §eEnvirons",
