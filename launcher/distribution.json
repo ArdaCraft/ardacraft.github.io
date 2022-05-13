@@ -1529,13 +1529,93 @@
           }
         },
         {
-          "id": "com.conquestreforged:conquest:5.0.7@jar",
+          "id": "com.conquestreforged:conquest:5.0.10@jar",
           "name": "ConquestReforged",
           "type": "ForgeMod",
           "artifact": {
-            "size": 93145489,
-            "url": "https://media.forgecdn.net/files/3646/303/ConquestReforged-mc1.16.5-5.0.7.jar",
-            "MD5": "efb3377b58afee208cc4bf888cd635d1"
+            "size": 93179562,
+            "url": "https://media.forgecdn.net/files/3787/524/ConquestReforged-mc1.16.5-5.0.10.jar",
+            "MD5": "95332f29bed8a9bf0bae9f326d521891"
+          }
+        },
+        {
+          "id": "com.simibubi:create:v0.3.2g@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11564279,
+            "url": "https://media.forgecdn.net/files/3536/25/create-mc1.16.5_v0.3.2g.jar",
+            "MD5": "84ec13d5bccfa71a09783ecb6e089b20"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:2.1.0@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 108520,
+            "url": "https://media.forgecdn.net/files/3485/636/ferritecore-2.1.0-forge.jar",
+            "MD5": "6b469b99aa6f89b6ebad7aefa3cb9843"
+          }
+        },
+        {
+          "id": "com.jozufozu:flywheel:1.16-0.2.5@jar",
+          "name": "Flywheel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 420923,
+            "url": "https://media.forgecdn.net/files/3535/459/flywheel-1.16-0.2.5.jar",
+            "MD5": "0964200fddbd4ff67dfab63c5aae161a"
+          }
+        },
+        {
+          "id": "com.jayemceekay:forgesniper:1.0-SNAPSHOT@jar",
+          "name": "Forgesniper",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 255085,
+            "url": "https://media.forgecdn.net/files/3523/575/ForgeSniper-1.0-SNAPSHOT.jar",
+            "MD5": "9bb014625069026748b6eb35111f1200"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftblibrary:1605.3.4-build.90@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 585125,
+            "url": "https://media.forgecdn.net/files/3553/840/ftb-library-forge-1605.3.4-build.90.jar",
+            "MD5": "88b4c3497d1aa260481bd74e464a3d70"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbranks:1605.1.5-build.16@jar",
+          "name": "FTB Ranks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 64964,
+            "url": "https://media.forgecdn.net/files/3530/24/ftb-ranks-forge-1605.1.5-build.16.jar",
+            "MD5": "aec24c6a685df4be51313ea06247e7d0"
+          }
+        },
+        {
+          "id": "com.maciej916:maessentials:1.16.5-3.5.0@jar",
+          "name": "Ma Essentials",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 264904,
+            "url": "https://media.forgecdn.net/files/3561/235/Ma-Essentials-1.16.5-3.5.0.jar",
+            "MD5": "2e131bc654d08bffd6510feb168de7ee"
+          }
+        },
+        {
+          "id": "ca.spottedleaf:starlight:1.0.0-RC2@jar",
+          "name": "Starlight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 101511,
+            "url": "https://media.forgecdn.net/files/3583/654/starlight-1.2.jar",
+            "MD5": "0300a2592cdb4b82f7203b4f0f9af87b"
           }
         },
         {
@@ -1619,14 +1699,25 @@
           ]
         },
         {
-          "id": "CRRP-1.16.5-5.0.7.zip",
-          "name": "CRRP-1.16.5-5.0.7.zip",
+          "id": "AC_Overlay_2.7.1.zip",
+          "name": "AC_Overlay_2.7.1.zip",
           "type": "File",
           "artifact": {
-            "size": 86452938,
-            "url": "https://media.forgecdn.net/files/3646/300/CRRP-1.16.5-5.0.7.zip",
-            "MD5": "99b5e0070ac16ff90277fb9de71add96",
-            "path": "resourcepacks/CRRP-1.16.5-5.0.7.zip"
+            "size": 25278089,
+            "url": "https://github.com/ArdaCraft/AC_Overlay/releases/download/v2.7.1/AC_Overlay_2.7.1.zip",
+            "MD5": "9128f355124b8d47cb82e7b2ff8edfee",
+            "path": "resourcepacks/AC_Overlay_2.7.1.zip"
+          }
+        },
+        {
+          "id": "CRRP-1.16.5-5.0.8.zip",
+          "name": "CRRP-1.16.5-5.0.8.zip",
+          "type": "File",
+          "artifact": {
+            "size": 86438552,
+            "url": "https://media.forgecdn.net/files/3724/712/CRRP-1.16.5-5.0.8.zip",
+            "MD5": "0941cce86a4939923f82d65d3bc61bd9",
+            "path": "resourcepacks/CRRP-1.16.5-5.0.8.zip"
           }
         }
       ]
