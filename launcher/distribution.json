@@ -912,7 +912,7 @@
             "MD5": "67039262e6d67db92ef98dbafc3c67d6"
           }
         },
-	{
+	      {
           "id": "generated.forgemod:maessentials:3.1.1@jar",
           "name": "Ma-Essentials",
           "type": "ForgeMod",
@@ -921,7 +921,7 @@
             "url": "https://ardacraft.github.io/launcher/servers/beta-1.15.2/forgemods/required/Ma-Essentials-1.15.2-3.1.1.jar",
             "MD5": "52fb3119e497021096ee2ff2345d94f6"
           }
-	},
+	      },
         {
           "id": "generated.forgemod:environs:1.15.2-1.0.0.0@jar",
           "name": "§3Dynamic Surroundings: §eEnvirons",
@@ -1536,6 +1536,16 @@
             "size": 6046996,
             "url": "https://ardacraft.github.io/launcher/servers/beta-1.16.5/libraries/OptiFine_1.16.5_HD_U_G8.jar",
             "MD5": "e0717ba6d1674af83036ebc479fc77b4"
+          }
+        },
+        {
+          "id": "me.shedaniel:architectury:1.31.60@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 551717,
+            "url": "https://media.forgecdn.net/files/3764/587/architectury-1.31.60.jar",
+            "MD5": "b7eeb3cd6f06ead9bd33b751b4f56adf"
           }
         },
         {
