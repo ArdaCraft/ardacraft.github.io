@@ -992,6 +992,16 @@
             "MD5": "9bb014625069026748b6eb35111f1200"
           }
         },
+	{
+          "id": "me.isaiah:multiworld:1.4@jar",
+          "name": "Multiworld",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 62717,
+            "url": "https://ardacraft.github.io/launcher/servers/beta-1.16.5/forgemods/required/MultiWorld_1.5.jar",
+            "MD5": "cb81db7adb44eef85f57899cc59e8726"
+          }
+        },
         {
           "id": "dev.ftb.mods:ftblibrary:1605.3.4-build.90@jar",
           "name": "FTB Library",
@@ -1132,6 +1142,17 @@
             "url": "https://media.forgecdn.net/files/3724/712/CRRP-1.16.5-5.0.8.zip",
             "MD5": "0941cce86a4939923f82d65d3bc61bd9",
             "path": "resourcepacks/CRRP-1.16.5-5.0.8.zip"
+          }
+        },
+	{
+          "id": "CR+All-1.16.zip",
+          "name": "CR+All-1.16.zip",
+          "type": "File",
+          "artifact": {
+            "size": 6552126,
+            "url": "https://media.forgecdn.net/files/3544/620/CR%2BAll-1.16.zip",
+            "MD5": "7c3689bdfd8df5e85e43b2d2af5fa62a",
+            "path": "resourcepacks/CR+All-1.16.zip"
           }
         }
       ]
