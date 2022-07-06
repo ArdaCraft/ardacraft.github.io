@@ -195,7 +195,7 @@
               "name": "Minecraft Forge (lowcodelanguage:1.18.2-40.1.54)",
               "type": "Library",
               "artifact": {
-                "size": 7.383,
+                "size": 7383,
                 "MD5": "afcb19e28c6c0487d4c4cf611e098380",
                 "url": "https://glaxyfileserver.herokuapp.com//repo/lib/net/minecraftforge/lowcodelanguage/1.18.2-40.1.54/lowcodelanguage-1.18.2-40.1.54.jar"
               }
@@ -503,7 +503,27 @@
             "MD5": "ebc399dda32f99232927ccb01d45f4b8",
             "path": "resourcepacks/CRRP-1.18.2-7.0.31.zip"
           }
-	}
+	},
+	        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3842,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "optionsof.txt",
+          "name": "optionsof.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1406,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/files/optionsof.txt",
+            "path": "optionsof.txt"
+          }
+        }
       ]
     }
   ]
