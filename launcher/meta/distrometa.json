@@ -1,4 +1,5 @@
 {
+  "$schema": "file:///home/michael/github/ardacraft/modpack/schemas/DistroMetaSchema.schema.json",
   "meta": {
     "rss": "https://forums.ardacraft.me/c/announcements/5.rss",
     "discord": {

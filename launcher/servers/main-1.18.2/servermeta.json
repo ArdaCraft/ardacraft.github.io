@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///home/michael/github/ardacraft/modpack/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "ArdaCraft Main",
+    "description": "ArdaCraft Running Minecraft 1.18.2 (Forge v40.1.54)",
+    "address": "mc.ardacraft.me:25565",
+    "discord": {
+      "shortId": "Main",
+      "largeImageText": "ArdaCraft Server",
+      "largeImageKey": "server-main"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "40.1.54"
+  },
+  "untrackedFiles": []
+}

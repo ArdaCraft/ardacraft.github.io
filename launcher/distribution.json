@@ -8,13 +8,13 @@
   },
   "servers": [
     {
-      "id": "main-1.12.2",
+      "id": "main-1.18.2",
       "name": "ArdaCraft Main",
-      "description": "ArdaCraft Running Minecraft 1.12.2 (Forge v14.23.5.2857) (Liteloader v1.12.2)",
+      "description": "ArdaCraft Running Minecraft 1.18.2 (Forge v40.1.54)",
       "icon": "https://ardacraft.github.io/launcher/assets/logo.png",
       "version": "1.0.0",
       "address": "mc.ardacraft.me:25565",
-      "minecraftVersion": "1.12.2",
+      "minecraftVersion": "1.18.2",
       "discord": {
         "shortId": "Main",
         "largeImageText": "ArdaCraft Server",
@@ -24,730 +24,170 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2857:universal",
-          "name": "Minecraft Forge",
+          "id": "net.minecraftforge:fmlcore:1.18.2-40.1.54",
+          "name": "Minecraft Forge (fmlcore)",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 4465918,
-            "MD5": "a7f379bb6a860348eec763435ba942d8",
-            "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2857/forge-1.12.2-14.23.5.2857-universal.jar"
+            "size": 109651,
+            "MD5": "359af749a3e2a004d7f5d76e1f30649f",
+            "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/fmlcore/1.18.2-40.1.54/fmlcore-1.18.2-40.1.54.jar"
           },
           "subModules": [
             {
-              "id": "1.12.2-14.23.5.2857",
+              "id": "1.18.2-40.1.54",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 12447,
-                "MD5": "9f7c903fd6cdb5dd730f7b566c11ea6e",
-                "url": "https://ardacraft.github.io/launcher/repo/versions/1.12.2-forge-14.23.5.2857/1.12.2-forge-14.23.5.2857.json"
+                "size": 13712,
+                "MD5": "735de385a2f84fe0dba8cc4504668be5",
+                "url": "https://ardacraft.github.io/launcher/repo/versions/1.18.2-forge-40.1.54/1.18.2-forge-40.1.54.json"
               }
             },
             {
-              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
-              "name": "Minecraft Forge (asm-debug-all)",
+              "id": "net.minecraftforge:javafmllanguage:1.18.2-40.1.54",
+              "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "artifact": {
-                "size": 387903,
-                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraft:launchwrapper:1.12@jar",
-              "name": "Minecraft Forge (launchwrapper)",
-              "type": "Library",
-              "artifact": {
-                "size": 32999,
-                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline:3.5.1@jar",
-              "name": "Minecraft Forge (jline)",
-              "type": "Library",
-              "artifact": {
-                "size": 614590,
-                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
-              }
-            },
-            {
-              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
-              "name": "Minecraft Forge (akka-actor_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 2514991,
-                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
-              }
-            },
-            {
-              "id": "com.typesafe:config:1.2.1@jar",
-              "name": "Minecraft Forge (config)",
-              "type": "Library",
-              "artifact": {
-                "size": 219554,
-                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
-              "name": "Minecraft Forge (scala-actors-migration_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 58018,
-                "MD5": "f5e79398daa1806f8b17311a3c782723",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
-              "name": "Minecraft Forge (scala-compiler)",
-              "type": "Library",
-              "artifact": {
-                "size": 13449765,
-                "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-library_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 25365,
-                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
-              "type": "Library",
-              "artifact": {
-                "size": 206575,
-                "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-library:2.11.1@jar",
-              "name": "Minecraft Forge (scala-library)",
-              "type": "Library",
-              "artifact": {
-                "size": 5538130,
-                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 419701,
-                "MD5": "4e694499c965af4a02599c99d4f0b196",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
-              "name": "Minecraft Forge (scala-reflect)",
-              "type": "Library",
-              "artifact": {
-                "size": 4372892,
-                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-swing_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 726500,
-                "MD5": "1009d69e4948045383f2a7a334348af5",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
-              "name": "Minecraft Forge (scala-xml_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 648679,
-                "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
-              }
-            },
-            {
-              "id": "lzma:lzma:0.0.1@jar",
-              "name": "Minecraft Forge (lzma)",
-              "type": "Library",
-              "artifact": {
-                "size": 5762,
-                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
-              }
-            },
-            {
-              "id": "java3d:vecmath:1.5.2@jar",
-              "name": "Minecraft Forge (vecmath)",
-              "type": "Library",
-              "artifact": {
-                "size": 318956,
-                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
-              }
-            },
-            {
-              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
-              "name": "Minecraft Forge (trove4j)",
-              "type": "Library",
-              "artifact": {
-                "size": 2523218,
-                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 54961,
-                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
-              }
-            },
-            {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
-              "name": "Minecraft Forge (jopt-simple)",
-              "type": "Library",
-              "artifact": {
-                "size": 78175,
-                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
-              "name": "Minecraft Forge (log4j-api)",
-              "type": "Library",
-              "artifact": {
-                "size": 301804,
-                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
-              "name": "Minecraft Forge (log4j-core)",
-              "type": "Library",
-              "artifact": {
-                "size": 1789769,
-                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0@jar",
-              "name": "Minecraft Forge (log4j-slf4j18-impl)",
-              "type": "Library",
-              "artifact": {
-                "size": 21223,
-                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "generated.forgemod:acresourceupdater:1.2-SNAPSHOT@jar",
-          "name": "ACResourceUpdater",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 26676,
-            "MD5": "c19a7111992d4ef212892adc2f677906",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/ACResourceUpdater-1.2-SNAPSHOT.jar"
-          }
-        },
-        {
-          "id": "generated.forgemod:conquest:3.0.2@jar",
-          "name": "Conquest Reforged",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 60802913,
-            "MD5": "4ad1a90bcbecae097b984a4ee3695929",
-            "url": "https://edge.forgecdn.net/files/2565/963/ConquestReforged-3.0.2-mc1.12.2.jar"
-          }
-        },
-        {
-          "id": "generated.forgemod:noclip:1.2-mc1.12.2@jar",
-          "name": "NoClip",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 964946,
-            "MD5": "07ba45ab67463150b3fdd6e51df8fd97",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/NoClip-1.2-mc1.12.2.jar"
-          }
-        },
-        {
-          "id": "generated.forgemod:optifine:1.12.2_HD_U_F5@jar",
-          "name": "OptiFine 1.12.2_HD_U_F5",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2598821,
-            "MD5": "043ac1db6f7441ea4cf31bcb621aff0b",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_F5.jar"
-          }
-        },
-        {
-          "id": "generated.forgemod:daflight:5.2.3-mc1.12.2@jar",
-          "name": "Daflight",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1014873,
-            "MD5": "e7e75c4bbca9a3ae10fa1aadc600cac5",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/required/daflight-5.2.3-mc1.12.2.jar"
-          }
-        },
-        {
-          "id": "generated.forgemod:betterfoliage:2.3.1@jar",
-          "name": "Better Foliage",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 937680,
-            "MD5": "fe8b72e0045c06136ca64f736090ac7a",
-            "url": "https://edge.forgecdn.net/files/2852/872/BetterFoliage-MC1.12-2.3.1.jar"
-          },
-          "required": {
-            "value": false
-          },
-          "subModules": [
-            {
-              "id": "generated.forgemod:forgelin:1.8.4@jar",
-              "name": "Shadowfacts' Forgelin",
-              "type": "ForgeMod",
-              "artifact": {
-                "size": 6278399,
-                "MD5": "2da79fce72265eab0541e565636d389d",
-                "url": "https://edge.forgecdn.net/files/2785/465/Forgelin-1.8.4.jar"
+                "size": 16292,
+                "MD5": "410fb3a41ec2dc7c92958c120457163b",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.1.54/javafmllanguage-1.18.2-40.1.54.jar"
               },
-              "required": {
-                "value": false
-              }
+              "subModules": []
             },
             {
-              "id": "BetterFoliage.cfg",
-              "name": "BetterFoliage.cfg",
-              "type": "File",
+              "id": "net.minecraftforge:mclanguage:1.18.2-40.1.54",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
               "artifact": {
-                "size": 8119,
-                "MD5": "c3a4242b285b158488662884deb222ef",
-                "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/config/BetterFoliage.cfg",
-                "path": "config/BetterFoliage.cfg"
+                "size": 4987,
+                "MD5": "786e2b586f876f5a2f2ae6643e377b03",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/mclanguage/1.18.2-40.1.54/mclanguage-1.18.2-40.1.54.jar"
               },
-              "required": {
-                "value": false
-              }
-            }
-          ]
-        },
-        {
-          "id": "generated.forgemod:camera:1.0.0-mc1.12.2@jar",
-          "name": "Camera",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 983830,
-            "MD5": "5491c2c0e5462dc3812e826db1d5bb07",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionalon/Camera-1.0.0-mc1.12.2.jar"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:worldeditcuife2:2.1.2-mf-1.12.2-14.23.5.2768@jar",
-          "name": "WorldEdit CUI Forge Edition 2",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 459294,
-            "MD5": "c3b73126dae2412b7f2240db4073cffd",
-            "url": "https://edge.forgecdn.net/files/2629/418/WorldEdit CUI Forge Edition 2-2.2.0-mf-1.12.2-14.23.5.2768.jar"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:journeymap:1.12.2-5.7.1@jar",
-          "name": "JourneyMap",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6990968,
-            "MD5": "8160b970fc14cff30dff2785bb9f964c",
-            "url": "https://edge.forgecdn.net/files/2916/2/journeymap-1.12.2-5.7.1.jar"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:cmdcam:0.0.0@jar",
-          "name": "CMDCam",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 83900,
-            "MD5": "c1d76f58a8b1033ef638c35308a8eb49",
-            "url": "https://edge.forgecdn.net/files/2967/352/CMDCam_v1.4.9_mc1.12.2.jar"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          },
-          "subModules": [
-            {
-              "id": "generated.forgemod:creativecore:1.10@jar",
-              "name": "CreativeCore",
-              "type": "ForgeMod",
-              "artifact": {
-                "size": 1090904,
-                "MD5": "ce9692bdbf5a16c1d48354b67fb8022e",
-                "url": "https://edge.forgecdn.net/files/2968/171/CreativeCore_v1.10.16_mc1.12.2.jar"
-              },
-              "required": {
-                "value": false,
-                "def": false
-              }
-            }
-          ]
-        },
-        {
-          "id": "generated.forgemod:dsurround:1.12.2-3.6.0.2@jar",
-          "name": "Dynamic Surroundings",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 16014866,
-            "MD5": "b587a5c7a4791894a3531577e4bbec81",
-            "url": "https://edge.forgecdn.net/files/2825/354/DynamicSurroundings-1.12.2-3.6.0.2.jar"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          },
-          "subModules": [
-            {
-              "id": "generated.forgemod:orelib:1.12.2-3.6.0.1@jar",
-              "name": "OreLib Support Mod",
-              "type": "ForgeMod",
-              "artifact": {
-                "size": 341728,
-                "MD5": "00cce3b240365458adcad3e77782358a",
-                "url": "https://edge.forgecdn.net/files/2820/815/OreLib-1.12.2-3.6.0.1.jar"
-              },
-              "required": {
-                "value": false,
-                "def": false
-              }
-            }
-          ]
-        },
-        {
-          "id": "generated.forgemod:soundphysics:1.0.9@jar",
-          "name": "Sound Physics",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 31208,
-            "MD5": "4eb92f344945e4cfe5bd25c92cb9b1de",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/forgemods/optionaloff/Sound-Physics-1.12.2-1.0.9.jar"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "generated.forgemod:quickhotbar:1.05@jar",
-          "name": "Quick Hotbar",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 110248,
-            "MD5": "5703593a1879c0c428df490ec4f6b290",
-            "url": "https://edge.forgecdn.net/files/2654/800/quickhotbar_1122_1.05.jar"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "liteloader:1.12.2-SNAPSHOT-release:1.12.2@jar",
-          "name": "Liteloader (1.12.2)",
-          "type": "LiteLoader",
-          "artifact": {
-            "size": 1680383,
-            "MD5": "1420785ecbfed5aff4a586c5c9dd97eb",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/litemods/liteloader-1.12.2-SNAPSHOT-release.jar"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          },
-          "subModules": [
-            {
-              "id": "generated.litemod:tabbychat:2.3.4-1.12.r2@litemod",
-              "name": "Tabbychat",
-              "type": "LiteMod",
-              "artifact": {
-                "size": 731531,
-                "MD5": "643350918c11bcc02fbcfb2732abe4b1",
-                "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/litemods/optionaloff/mod-tabbychat-2.3.4-mc1.12.2.litemod"
-              },
-              "required": {
-                "value": false,
-                "def": false
-              }
-            }
-          ]
-        },
-        {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 3592,
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/options.txt",
-            "path": "options.txt"
-          }
-        },
-        {
-          "id": "optionsof.txt",
-          "name": "optionsof.txt",
-          "type": "File",
-          "artifact": {
-            "size": 1428,
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/optionsof.txt",
-            "path": "optionsof.txt"
-          }
-        },
-        {
-          "id": "optionsshaders.txt",
-          "name": "optionsshaders.txt",
-          "type": "File",
-          "artifact": {
-            "size": 354,
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/optionsshaders.txt",
-            "path": "optionsshaders.txt"
-          }
-        },
-        {
-          "id": "AC_Overlay-2.3.zip",
-          "name": "AC_Overlay-2.3.zip",
-          "type": "File",
-          "artifact": {
-            "size": 27806359,
-            "MD5": "bb6bfd8bbbb13072bfb3d0e24689c111",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/resourcepacks/AC_Overlay-2.3.zip",
-            "path": "resourcepacks/AC_Overlay-2.3.zip"
-          }
-        },
-        {
-          "id": "Conquest Reforged.zip",
-          "name": "Conquest Reforged.zip",
-          "type": "File",
-          "artifact": {
-            "size": 85322951,
-            "MD5": "54db10d1ae7fd62093e1e754fe194076",
-            "url": "https://edge.forgecdn.net/files/2565/964/Conquest Reforged.zip",
-            "path": "resourcepacks/Conquest Reforged.zip"
-          }
-        },
-        {
-          "id": "servers.dat",
-          "name": "servers.dat",
-          "type": "File",
-          "artifact": {
-            "size": 10950,
-            "MD5": "25c1eda6598df06a65115e624645da01",
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.12.2/files/servers.dat",
-            "path": "servers.dat"
-          }
-        }
-      ]
-    },
-    {
-      "id": "beta-1.16.5",
-      "name": "ArdaCraft Beta (Minecraft 1.16.5)",
-      "description": "ArdaCraft Running Minecraft 1.16.5 (Forge v36.2.28)",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "beta.ardacraft.me",
-      "minecraftVersion": "1.16.5",
-      "discord": {
-        "shortId": "Beta",
-        "largeImageText": "ArdaCraft Server",
-        "largeImageKey": "server-beta"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.16.5-36.2.28",
-          "name": "Minecraft Forge (base jar)",
-          "type": "ForgeHosted",
-          "artifact": {
-            "size": 212291,
-            "MD5": "2508c281aa0f73e01322acc8cebdaf97",
-            "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.16.5-36.2.28/forge-1.16.5-36.2.28.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.16.5-36.2.28",
-              "name": "Minecraft Forge (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 13577,
-                "MD5": "65399b0baeae34b62c63ca38f0c96a5f",
-                "url": "https://ardacraft.github.io/launcher/repo/versions/1.16.5-forge-36.2.28/1.16.5-forge-36.2.28.json"
-              }
+              "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.16.5-36.2.28:universal",
+              "id": "net.minecraftforge:forge:1.18.2-40.1.54:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "artifact": {
-                "size": 2756381,
-                "MD5": "df6e9833c7fc2c9b6429158c28fe811e",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.16.5-36.2.28/forge-1.16.5-36.2.28-universal.jar"
+                "size": 2509611,
+                "MD5": "8f74bc892185d0dc66adb9bfab809b21",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.18.2-40.1.54/forge-1.18.2-40.1.54-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.16.5-36.2.28:client",
+              "id": "net.minecraftforge:forge:1.18.2-40.1.54:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "artifact": {
-                "size": 4214066,
-                "MD5": "1100538e811363e899b3c1c8afa99391",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.16.5-36.2.28/forge-1.16.5-36.2.28-client.jar"
+                "size": 5094055,
+                "MD5": "5f3d187959734b3aa956ec923edb17a7",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.18.2-40.1.54/forge-1.18.2-40.1.54-client.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
+              "id": "net.minecraft:client:1.18.2-20220404.173914:srg",
               "name": "Minecraft Forge (client srg)",
               "type": "Library",
               "artifact": {
-                "size": 11352644,
-                "MD5": "809b08d5a785f3ef0da24d201400db1a",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+                "size": 16166247,
+                "MD5": "a0ce7261b4f77fd1319b05b95591bc68",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-srg.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
+              "id": "net.minecraft:client:1.18.2-20220404.173914:slim",
               "name": "Minecraft Forge (client slim)",
               "type": "Library",
               "artifact": {
-                "size": 9118806,
-                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+                "size": 10909711,
+                "MD5": "62184203a1e66c6c72b415b7d6e64c0d",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-slim.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
+              "id": "net.minecraft:client:1.18.2-20220404.173914:extra",
               "name": "Minecraft Forge (client extra)",
               "type": "Library",
               "artifact": {
-                "size": 8428369,
-                "MD5": "dbed747390f81e10cee40500b726431a",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+                "size": 9349972,
+                "MD5": "5de62b239289ed8e596b386766b87b41",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-extra.jar"
               },
               "subModules": []
             },
             {
-              "id": "org.ow2.asm:asm:9.1",
+              "id": "cpw.mods:securejarhandler:1.0.3",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 103266,
+                "MD5": "678ec8927eb25f596db7e620a716befc",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/cpw/mods/securejarhandler/1.0.3/securejarhandler-1.0.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.2",
               "name": "Minecraft Forge (asm)",
               "type": "Library",
               "artifact": {
-                "size": 121790,
-                "MD5": "54b9f5d15e4877a4ea4cf9ec48e07afa",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/ow2/asm/asm/9.1/asm-9.1.jar"
+                "size": 122004,
+                "MD5": "8f184dce9b1bedc675d4a3640d43ddf0",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/org/ow2/asm/asm/9.2/asm-9.2.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.1",
+              "id": "org.ow2.asm:asm-commons:9.2",
               "name": "Minecraft Forge (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 72641,
-                "MD5": "81cc6b8f5ce8f2767d39fbd4b6c37a6a",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar"
+                "size": 72642,
+                "MD5": "3eb09775e1076eb0a085a4592faebc2a",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.1",
+              "id": "org.ow2.asm:asm-tree:9.2",
               "name": "Minecraft Forge (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 52662,
-                "MD5": "c2536add9ebcfa8066fcfb0dbe865879",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/ow2/asm/asm-tree/9.1/asm-tree-9.1.jar"
+                "size": 52660,
+                "MD5": "9c45524e94b19cc8b614b9e81ad544e2",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.1",
+              "id": "org.ow2.asm:asm-util:9.2",
               "name": "Minecraft Forge (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 84679,
-                "MD5": "2f1a28f6b0f3e02b17d38a0f657a1527",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/ow2/asm/asm-util/9.1/asm-util-9.1.jar"
+                "size": 84854,
+                "MD5": "8562ac2619220b948cef931285b1e13b",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/org/ow2/asm/asm-util/9.2/asm-util-9.2.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.1",
+              "id": "org.ow2.asm:asm-analysis:9.2",
               "name": "Minecraft Forge (asm-analysis)",
               "type": "Library",
               "artifact": {
                 "size": 34257,
-                "MD5": "f0e82941173b6049c03e8214ace70ecd",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar"
+                "MD5": "e62aa59de96ae29c690c3521ea4b6359",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar"
               }
             },
             {
-              "id": "cpw.mods:modlauncher:8.1.3",
-              "name": "Minecraft Forge (modlauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 126747,
-                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:grossjava9hacks:1.3.3",
-              "name": "Minecraft Forge (grossjava9hacks)",
-              "type": "Library",
-              "artifact": {
-                "size": 2113,
-                "MD5": "d19b487241008d8e6111137a289ea1d7",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
               "name": "Minecraft Forge (accesstransformers)",
               "type": "Library",
               "artifact": {
-                "size": 76586,
-                "MD5": "ada4c365c3d0de73c05a94010432b547",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
               }
             },
             {
@@ -761,33 +201,43 @@
               }
             },
             {
-              "id": "net.minecraftforge:eventbus:4.0.0",
+              "id": "net.minecraftforge:eventbus:5.0.3",
               "name": "Minecraft Forge (eventbus)",
               "type": "Library",
               "artifact": {
-                "size": 42873,
-                "MD5": "84c4758e6139b70146104be5bb1300b5",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+                "size": 42838,
+                "MD5": "c8b735cdfe9975a569626d72ad40377f",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/eventbus/5.0.3/eventbus-5.0.3.jar"
               }
             },
             {
-              "id": "net.minecraftforge:forgespi:3.2.0",
+              "id": "net.minecraftforge:forgespi:4.0.10",
               "name": "Minecraft Forge (forgespi)",
               "type": "Library",
               "artifact": {
-                "size": 20172,
-                "MD5": "8f1f6942d17d88d704324e8000666a1a",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+                "size": 21869,
+                "MD5": "b4b4b87397040701bd74ad6cbb784954",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forgespi/4.0.10/forgespi-4.0.10.jar"
               }
             },
             {
-              "id": "net.minecraftforge:coremods:4.0.6",
+              "id": "net.minecraftforge:coremods:5.0.1",
               "name": "Minecraft Forge (coremods)",
               "type": "Library",
               "artifact": {
-                "size": 25453,
-                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:9.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 129301,
+                "MD5": "dca70519c3e53ac018d6f50c6f90cd38",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/cpw/mods/modlauncher/9.1.3/modlauncher-9.1.3.jar"
               }
             },
             {
@@ -801,33 +251,23 @@
               }
             },
             {
-              "id": "com.electronwill.night-config:core:3.6.3",
+              "id": "com.electronwill.night-config:core:3.6.4",
               "name": "Minecraft Forge (core)",
               "type": "Library",
               "artifact": {
-                "size": 199091,
-                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
               }
             },
             {
-              "id": "com.electronwill.night-config:toml:3.6.3",
+              "id": "com.electronwill.night-config:toml:3.6.4",
               "name": "Minecraft Forge (toml)",
               "type": "Library",
               "artifact": {
-                "size": 31288,
-                "MD5": "615b8e62371c536f876764591990118d",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline:3.12.1",
-              "name": "Minecraft Forge (jline)",
-              "type": "Library",
-              "artifact": {
-                "size": 732926,
-                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
               }
             },
             {
@@ -851,36 +291,6 @@
               }
             },
             {
-              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
-              "name": "Minecraft Forge (log4j-api)",
-              "type": "Library",
-              "artifact": {
-                "size": 301804,
-                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
-              "name": "Minecraft Forge (log4j-core)",
-              "type": "Library",
-              "artifact": {
-                "size": 1789769,
-                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
-              "name": "Minecraft Forge (log4j-slf4j18-impl)",
-              "type": "Library",
-              "artifact": {
-                "size": 21223,
-                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
-              }
-            },
-            {
               "id": "net.minecrell:terminalconsoleappender:1.2.0",
               "name": "Minecraft Forge (terminalconsoleappender)",
               "type": "Library",
@@ -891,270 +301,199 @@
               }
             },
             {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
-              "name": "Minecraft Forge (jopt-simple)",
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
               "type": "Library",
               "artifact": {
-                "size": 78146,
-                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
               }
             },
             {
-              "id": "org.spongepowered:mixin:0.8.4",
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
               "name": "Minecraft Forge (mixin)",
               "type": "Library",
               "artifact": {
-                "size": 1069391,
-                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
               }
             },
             {
-              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
-              "name": "Minecraft Forge (nashorn-core-compat)",
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
               "type": "Library",
               "artifact": {
-                "size": 2194057,
-                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.0.0",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 7828,
+                "MD5": "1632575563bb6ead2ae3a087945f18be",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/cpw/mods/bootstraplauncher/1.0.0/bootstraplauncher-1.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.18.2-40.1.54",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 238924,
+                "MD5": "05d45d519c73083b51b7f6944c410aa6",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/fmlloader/1.18.2-40.1.54/fmlloader-1.18.2-40.1.54.jar"
               }
             }
           ]
         },
         {
-          "id": "generated.library:OptiFine_1.16.5_HD_U_G8:0.0.0@jar",
-          "name": "OptiFine_1.16.5_HD_U_G8",
-          "type": "Library",
-          "artifact": {
-            "size": 6046996,
-            "url": "https://ardacraft.github.io/launcher/servers/beta-1.16.5/libraries/OptiFine_1.16.5_HD_U_G8.jar",
-            "MD5": "e0717ba6d1674af83036ebc479fc77b4"
-          }
-        },
-        {
-          "id": "me.shedaniel:architectury:1.31.60@jar",
-          "name": "Architectury",
+          "id": "com.conquestreforged.arms:conq_medieval_arms:1.0@jar",
+          "name": "Conquest's Medieval Arms",
           "type": "ForgeMod",
           "artifact": {
-            "size": 551717,
-            "url": "https://media.forgecdn.net/files/3764/587/architectury-1.31.60.jar",
-            "MD5": "b7eeb3cd6f06ead9bd33b751b4f56adf"
+            "size": 1601478,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/forgemods/required/conq_medieval_arms-1.0.jar",
+            "MD5": "20c3b9526b6e0bb2da3ef74c8630e1c0"
           }
         },
         {
-          "id": "com.conquestreforged:conquest:5.0.10@jar",
+          "id": "com.conquestreforged:conquest:7.0.3@jar",
           "name": "ConquestReforged",
           "type": "ForgeMod",
           "artifact": {
-            "size": 93179562,
-            "url": "https://media.forgecdn.net/files/3787/524/ConquestReforged-mc1.16.5-5.0.10.jar",
-            "MD5": "95332f29bed8a9bf0bae9f326d521891"
+            "size": 96537590,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/forgemods/required/ConquestReforged-mc1.18.2-7.0.3.jar",
+            "MD5": "265fab6f19e1fb8b9e24d9ab0f5235fc"
           }
         },
         {
-          "id": "com.simibubi:create:v0.3.2g@jar",
+          "id": "com.simibubi:create:0.4.1@jar",
           "name": "Create",
           "type": "ForgeMod",
           "artifact": {
-            "size": 11564279,
-            "url": "https://media.forgecdn.net/files/3536/25/create-mc1.16.5_v0.3.2g.jar",
-            "MD5": "84ec13d5bccfa71a09783ecb6e089b20"
+            "size": 12060862,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/forgemods/required/create-mc1.18.2_v0.4.1.jar",
+            "MD5": "2865bf7c262ac59dd83b2fb5f5bb4574"
           }
         },
         {
-          "id": "malte0811.ferritecore:ferritecore:2.1.0@jar",
+          "id": "malte0811.ferritecore:ferritecore:4.2.1-forge@jar",
           "name": "Ferrite Core",
           "type": "ForgeMod",
           "artifact": {
-            "size": 108520,
-            "url": "https://media.forgecdn.net/files/3485/636/ferritecore-2.1.0-forge.jar",
-            "MD5": "6b469b99aa6f89b6ebad7aefa3cb9843"
+            "size": 116552,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/forgemods/required/ferritecore-4.2.1-forge.jar",
+            "MD5": "3b470ce3be52837936b0fdd4aa642f72"
           }
         },
         {
-          "id": "com.jozufozu:flywheel:1.16-0.2.5@jar",
+          "id": "com.jozufozu:flywheel:1.18-0.6.2@jar",
           "name": "Flywheel",
           "type": "ForgeMod",
           "artifact": {
-            "size": 420923,
-            "url": "https://media.forgecdn.net/files/3535/459/flywheel-1.16-0.2.5.jar",
-            "MD5": "0964200fddbd4ff67dfab63c5aae161a"
+            "size": 1276722,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/forgemods/required/flywheel-forge-1.18-0.6.2.jar",
+            "MD5": "19d3b10e071a7cb048eb06255aaf4003"
           }
         },
         {
-          "id": "com.jayemceekay:forgesniper:1.0-SNAPSHOT@jar",
-          "name": "Forgesniper",
+          "id": "me.lucko.luckperms.forge.loader:luckperms:5.4.30@jar",
+          "name": "LuckPerms",
           "type": "ForgeMod",
           "artifact": {
-            "size": 255085,
-            "url": "https://media.forgecdn.net/files/3523/575/ForgeSniper-1.0-SNAPSHOT.jar",
-            "MD5": "9bb014625069026748b6eb35111f1200"
-          }
-        },
-	{
-          "id": "me.isaiah:multiworld:1.4@jar",
-          "name": "Multiworld",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 62717,
-            "url": "https://ardacraft.github.io/launcher/servers/beta-1.16.5/forgemods/required/MultiWorld_1.5.jar",
-            "MD5": "cb81db7adb44eef85f57899cc59e8726"
+            "size": 1372783,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/forgemods/required/LuckPerms-Forge-5.4.30.jar",
+            "MD5": "699e774e41e776c74f5aa679ff0c8ea8"
           }
         },
         {
-          "id": "dev.ftb.mods:ftblibrary:1605.3.4-build.90@jar",
-          "name": "FTB Library",
+          "id": "com.maciej916:maessentials:1.18-3.7.1@jar",
+          "name": "MaEssentials",
           "type": "ForgeMod",
           "artifact": {
-            "size": 585125,
-            "url": "https://media.forgecdn.net/files/3553/840/ftb-library-forge-1605.3.4-build.90.jar",
-            "MD5": "88b4c3497d1aa260481bd74e464a3d70"
+            "size": 197967,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/forgemods/required/maessentials-1.18-3.7.1.jar",
+            "MD5": "9a1837b8eca8b43b2be42349ae984a9e"
           }
         },
         {
-          "id": "dev.ftb.mods:ftbranks:1605.1.5-build.16@jar",
-          "name": "FTB Ranks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 64964,
-            "url": "https://media.forgecdn.net/files/3530/24/ftb-ranks-forge-1605.1.5-build.16.jar",
-            "MD5": "aec24c6a685df4be51313ea06247e7d0"
-          }
-        },
-        {
-          "id": "com.maciej916:maessentials:1.16.5-3.5.0@jar",
-          "name": "Ma Essentials",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 264904,
-            "url": "https://media.forgecdn.net/files/3561/235/Ma-Essentials-1.16.5-3.5.0.jar",
-            "MD5": "2e131bc654d08bffd6510feb168de7ee"
-          }
-        },
-        {
-          "id": "ca.spottedleaf:starlight:1.0.0-RC2@jar",
+          "id": "ca.spottedleaf:starlight:1.0.2+forge.83663de@jar",
           "name": "Starlight",
           "type": "ForgeMod",
           "artifact": {
-            "size": 101511,
-            "url": "https://media.forgecdn.net/files/3583/654/starlight-1.2.jar",
-            "MD5": "0300a2592cdb4b82f7203b4f0f9af87b"
+            "size": 110596,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/forgemods/required/starlight-1.0.2+forge.546ae87.jar",
+            "MD5": "2a103e58f0f8e3fda3ab4676966bcbb4"
           }
         },
         {
-          "id": "org.orecruncher:dsurround:4.0.5.0@jar",
-          "name": "§3Dynamic Surroundings",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 14746751,
-            "url": "https://media.forgecdn.net/files/3502/320/DynamicSurroundings-1.16.5-4.0.5.0.jar",
-            "MD5": "047b3dc132f9e591104af6a63c2ac2e3"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "journeymap:journeymap:5.7.3@jar",
-          "name": "Journeymap",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6868069,
-            "url": "https://media.forgecdn.net/files/3397/59/journeymap-1.16.5-5.7.3.jar",
-            "MD5": "aee0d91291596187c59759ceb4214fc6"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.github.hexomod:worldeditcuife3:3.0.9@jar",
-          "name": "WorldEdit CUI Forge Edition 3",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 869842,
-            "url": "https://media.forgecdn.net/files/3191/632/WorldEdit-CUI-FE3-1.16.5-3.0.9.jar",
-            "MD5": "5e1cf122014961085243d00507ec360d"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.sk89q:worldedit:7.2.5+57d5ac9@jar",
+          "id": "com.sk89q:worldedit:7.2.10+1742f98@jar",
           "name": "WorldEdit",
           "type": "ForgeMod",
           "artifact": {
-            "size": 5312767,
-            "url": "https://media.forgecdn.net/files/3283/693/worldedit-mod-7.2.5-dist.jar",
-            "MD5": "96ff53c70d4a3ff9df5592462b0f0685"
-          },
-          "required": {
-            "value": false
+            "size": 5500682,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/forgemods/required/worldedit-mod-7.2.10.jar",
+            "MD5": "862cec57e297ec8f97f74745c2e8b905"
           }
         },
         {
-          "id": "team.creative:cmdcam:1.5.0@jar",
-          "name": "CMDCam",
+          "id": "com.github.hexomod:worldeditcuife3:3.1.0@jar",
+          "name": "WorldEdit CUI 3 Forge Edition",
           "type": "ForgeMod",
           "artifact": {
-            "size": 82251,
-            "url": "https://media.forgecdn.net/files/3533/801/CMDCam_v1.5.24_mc1.16.5.jar",
-            "MD5": "cbb97809f3e19c7638bc29875dcc4b5b"
-          },
-          "required": {
-            "value": false
-          },
-          "subModules": [
-            {
-              "id": "team.creative:creativecore:2.0.0@jar",
-              "name": "CreativeCore",
-              "type": "ForgeMod",
-              "artifact": {
-                "size": 631207,
-                "url": "https://media.forgecdn.net/files/3419/983/CreativeCore_v2.2.1_mc1.16.5.jar",
-                "MD5": "c32d3e1df267d820eb2b1b8e8adb75e1"
-              },
-              "required": {
-                "value": false
-              }
-            }
-          ]
-        },
-        {
-          "id": "AC_Overlay_2.7.4.zip",
-          "name": "AC_Overlay_2.7.4.zip",
-          "type": "File",
-          "artifact": {
-            "size": 34915239,
-            "url": "https://github.com/ArdaCraft/AC_Overlay/releases/download/v2.7.4/AC_Overlay_2.7.4.zip",
-            "MD5": "85b4dff3ae98aa27935b7afeafa6c0c2",
-            "path": "AC_Overlay_2.7.4.zip"
+            "size": 897666,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/forgemods/required/worldeditcuife3-forge-1.18.1-3.1.0.jar",
+            "MD5": "7b7d0d0fa5137dd794e87dfb7ce519ab"
           }
         },
         {
-          "id": "CRRP-1.16.5-5.0.8.zip",
-          "name": "CRRP-1.16.5-5.0.8.zip",
-          "type": "File",
+          "id": "generated.library:OptiFine_1.18.2_HD_U_H7:0.0.0@jar",
+          "name": "OptiFine_1.18.2_HD_U_H7",
+          "type": "Library",
           "artifact": {
-            "size": 86438552,
-            "url": "https://media.forgecdn.net/files/3724/712/CRRP-1.16.5-5.0.8.zip",
-            "MD5": "0941cce86a4939923f82d65d3bc61bd9",
-            "path": "resourcepacks/CRRP-1.16.5-5.0.8.zip"
+            "size": 6604810,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/libraries/OptiFine_1.18.2_HD_U_H7.jar",
+            "MD5": "9360659231b2334bde87c5f1106d406f"
           }
         },
-	{
-          "id": "CR+All-1.16.zip",
-          "name": "CR+All-1.16.zip",
+        {
+          "id": "AC_Overlay-2.7.6.zip",
+          "name": "AC_Overlay-2.7.6.zip",
           "type": "File",
           "artifact": {
-            "size": 6552126,
-            "url": "https://media.forgecdn.net/files/3544/620/CR%2BAll-1.16.zip",
-            "MD5": "7c3689bdfd8df5e85e43b2d2af5fa62a",
-            "path": "resourcepacks/CR+All-1.16.zip"
+            "size": 26086321,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/files/resourcepacks/AC_Overlay-2.7.6.zip",
+            "MD5": "85a99e6342546eb1eb31392c6aee917b",
+            "path": "resourcepacks/AC_Overlay-2.7.6.zip"
           }
-        }
+        },
+        {
+          "id": "CRRP-1.18.2-7.0.31.zip",
+          "name": "CRRP-1.18.2-7.0.31.zip",
+          "type": "File",
+          "artifact": {
+            "size": 101536095,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/files/resourcepacks/CRRP-1.18.2-7.0.31.zip",
+            "MD5": "ebc399dda32f99232927ccb01d45f4b8",
+            "path": "resourcepacks/CRRP-1.18.2-7.0.31.zip"
+          }
+	}
       ]
     }
   ]
