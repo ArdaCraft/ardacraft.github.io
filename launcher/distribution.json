@@ -473,6 +473,16 @@
           }
         },
         {
+          "id": "com.farsight:farsight_view:1.18.2-1.9@jar",
+          "name": "Farsight mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10707,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/forgemods/required/farsight-1.18.2-1.9.jar",
+            "MD5": "bce870d88db478b482260283af2efc06"
+          }
+        },
+        {
           "id": "generated.library:OptiFine_1.18.2_HD_U_H7:0.0.0@jar",
           "name": "OptiFine_1.18.2_HD_U_H7",
           "type": "Library",
