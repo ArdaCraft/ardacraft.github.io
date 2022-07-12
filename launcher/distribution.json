@@ -393,13 +393,13 @@
           }
         },
         {
-          "id": "com.simibubi:create:0.4.1@jar",
+          "id": "com.simibubi:create:0.5.0@jar",
           "name": "Create",
           "type": "ForgeMod",
           "artifact": {
-            "size": 12060862,
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/forgemods/required/create-mc1.18.2_v0.4.1.jar",
-            "MD5": "2865bf7c262ac59dd83b2fb5f5bb4574"
+            "size": 14463619,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/forgemods/required/create-mc1.18.2_v0.5.0.jar",
+            "MD5": "850f1f77be2d3d7e2d2efe8ec1c709a9"
           }
         },
         {
@@ -413,13 +413,13 @@
           }
         },
         {
-          "id": "com.jozufozu:flywheel:1.18-0.6.2@jar",
+          "id": "com.jozufozu:flywheel:1.18-0.6.3.81@jar",
           "name": "Flywheel",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1276722,
-            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/forgemods/required/flywheel-forge-1.18-0.6.2.jar",
-            "MD5": "19d3b10e071a7cb048eb06255aaf4003"
+            "size": 1282756,
+            "url": "https://ardacraft.github.io/launcher/servers/main-1.18.2/forgemods/required/flywheel-forge-1.18-0.6.3.jar",
+            "MD5": "a47c8b1320bdfe7f1e6110fb2456e6fd"
           }
         },
         {
