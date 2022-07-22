@@ -1,11 +1,11 @@
 {
-  "$schema": "file:///home/michael/github/ardacraft/modpack/schemas/DistroMetaSchema.schema.json",
+  "$schema": "file:///E:/Minecraft/ArdaCraft%20Launcher/schemas/DistroMetaSchema.schema.json",
   "meta": {
-    "rss": "https://forums.ardacraft.me/c/announcements/5.rss",
+    "rss": "<LINK TO RSS FEED>",
     "discord": {
-      "clientId": "734960858504888431",
-      "smallImageText": "ArdaCraft",
-      "smallImageKey": "seal-circle"
+      "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
     }
   }
 }

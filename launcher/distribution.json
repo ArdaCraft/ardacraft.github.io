@@ -10,7 +10,7 @@
     {
       "id": "main-1.18.2",
       "name": "ArdaCraft Main",
-      "description": "ArdaCraft Running Minecraft 1.18.2 (Forge v40.1.54)",
+      "description": "ArdaCraft Running Minecraft 1.18.2 (Forge v40.1.51)",
       "icon": "https://ardacraft.github.io/launcher/assets/logo.png",
       "version": "1.0.0",
       "address": "mc.ardacraft.me:25565",
@@ -24,66 +24,66 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:fmlcore:1.18.2-40.1.54",
+          "id": "net.minecraftforge:fmlcore:1.18.2-40.1.51",
           "name": "Minecraft Forge (fmlcore)",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 109651,
-            "MD5": "359af749a3e2a004d7f5d76e1f30649f",
-            "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/fmlcore/1.18.2-40.1.54/fmlcore-1.18.2-40.1.54.jar"
+            "size": 109652,
+            "MD5": "04003d5c396ea2faf1a3209e92cf98c9",
+            "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/fmlcore/1.18.2-40.1.51/fmlcore-1.18.2-40.1.51.jar"
           },
           "subModules": [
             {
-              "id": "1.18.2-40.1.54",
+              "id": "1.18.2-40.1.51",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
                 "size": 13712,
-                "MD5": "735de385a2f84fe0dba8cc4504668be5",
-                "url": "https://ardacraft.github.io/launcher/repo/versions/1.18.2-forge-40.1.54/1.18.2-forge-40.1.54.json"
+                "MD5": "e021468ea227ebfe05048a93a6b412c2",
+                "url": "https://ardacraft.github.io/launcher/repo/versions/1.18.2-forge-40.1.51/1.18.2-forge-40.1.51.json"
               }
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.18.2-40.1.54",
+              "id": "net.minecraftforge:javafmllanguage:1.18.2-40.1.51",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "artifact": {
-                "size": 16292,
-                "MD5": "410fb3a41ec2dc7c92958c120457163b",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.1.54/javafmllanguage-1.18.2-40.1.54.jar"
+                "size": 16293,
+                "MD5": "ead252762f8a03c23d49ce8545ffbd7c",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.1.51/javafmllanguage-1.18.2-40.1.51.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.18.2-40.1.54",
+              "id": "net.minecraftforge:mclanguage:1.18.2-40.1.51",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "artifact": {
                 "size": 4987,
-                "MD5": "786e2b586f876f5a2f2ae6643e377b03",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/mclanguage/1.18.2-40.1.54/mclanguage-1.18.2-40.1.54.jar"
+                "MD5": "9de4bd0c5bf4cf9395a7ba8f4c356029",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/mclanguage/1.18.2-40.1.51/mclanguage-1.18.2-40.1.51.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.18.2-40.1.54:universal",
+              "id": "net.minecraftforge:forge:1.18.2-40.1.51:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "artifact": {
-                "size": 2509611,
-                "MD5": "8f74bc892185d0dc66adb9bfab809b21",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.18.2-40.1.54/forge-1.18.2-40.1.54-universal.jar"
+                "size": 2489172,
+                "MD5": "f81d6176303dd850c901e9cf95d39e78",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.18.2-40.1.51/forge-1.18.2-40.1.51-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.18.2-40.1.54:client",
+              "id": "net.minecraftforge:forge:1.18.2-40.1.51:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "artifact": {
-                "size": 5094055,
-                "MD5": "5f3d187959734b3aa956ec923edb17a7",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.18.2-40.1.54/forge-1.18.2-40.1.54-client.jar"
+                "size": 5093557,
+                "MD5": "81ecf01b2ba6a05bbcb2ab0c1a1d7a0f",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/forge/1.18.2-40.1.51/forge-1.18.2-40.1.51-client.jar"
               },
               "subModules": []
             },
@@ -188,16 +188,6 @@
                 "size": 77756,
                 "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
                 "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
-              }
-            },
-	    {
-              "id": "net.minecraftforge:lowcodelanguage:1.18.2-40.1.54",
-              "name": "Minecraft Forge (lowcodelanguage:1.18.2-40.1.54)",
-              "type": "Library",
-              "artifact": {
-                "size": 7383,
-                "MD5": "afcb19e28c6c0487d4c4cf611e098380",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/lowcodelanguage/1.18.2-40.1.54/lowcodelanguage-1.18.2-40.1.54.jar"
               }
             },
             {
@@ -361,13 +351,13 @@
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.18.2-40.1.54",
+              "id": "net.minecraftforge:fmlloader:1.18.2-40.1.51",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "artifact": {
                 "size": 238924,
-                "MD5": "05d45d519c73083b51b7f6944c410aa6",
-                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/fmlloader/1.18.2-40.1.54/fmlloader-1.18.2-40.1.54.jar"
+                "MD5": "83f7558349d9a0764862d605b9afdc22",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/fmlloader/1.18.2-40.1.51/fmlloader-1.18.2-40.1.51.jar"
               }
             }
           ]
