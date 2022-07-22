@@ -191,6 +191,16 @@
               }
             },
             {
+              "id": "net.minecraftforge:lowcodelanguage:1.18.2-40.1.51",
+              "name": "Minecraft Forge (lowcodelanguage:1.18.2-40.1.51",
+              "type": "Library",
+              "artifact": {
+                "size": 7383,
+                "MD5": "fa6db76b1e069fdc7535b2adc9179b26",
+                "url": "https://ardacraft.github.io/launcher/repo/lib/net/minecraftforge/lowcodelanguage/1.18.2-40.1.51/lowcodelanguage-1.18.2-40.1.51.jar"
+              }
+            },
+            {
               "id": "org.antlr:antlr4-runtime:4.9.1",
               "name": "Minecraft Forge (antlr4-runtime)",
               "type": "Library",
@@ -503,8 +513,8 @@
             "MD5": "ebc399dda32f99232927ccb01d45f4b8",
             "path": "resourcepacks/CRRP-1.18.2-7.0.31.zip"
           }
-	},
-	        {
+	      },
+	      {
           "id": "options.txt",
           "name": "options.txt",
           "type": "File",
